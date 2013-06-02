@@ -74,11 +74,11 @@
 body {background: #FEF9EC; padding-top: 20px; font-family: 'Quantico', sans;}
 #logo {margin-left:0;}
 #nav {margin-top: 8px; font-family: 'Quantico Bold'; font-weight: bold;}
-#nav ul {margin: 7px 0 0 0;}
+#nav ul {margin: 8px 0 0 0;}
 #nav li {margin-right: 0px; display: inline;}
-#nav a {color:#fff; background-color: #62bbff; padding: 2px 5px; margin: 0 2px 0 0; font-size: 14px;}
+#nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 1px 0 0; font-size: 16px;}
 #nav a:link {text-decoration: none;}
-#nav a:hover {text-decoration: none; background-color: #50a9ec}
+#nav a:hover {text-decoration: none; background-color: #50a9ec; color: white;}
 
 a:link  {background-color: #ffedd3;}
 a:hover {color: blue;}
