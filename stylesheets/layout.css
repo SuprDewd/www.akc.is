@@ -56,3 +56,25 @@
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+body {
+    background: #FEF9EC;
+    padding-top: 20px;
+}
+
+#logo {
+}
+
+#nav {margin-top: 8px;}
+#nav ul {margin: 7px 0 0 0;}
+#nav li {
+    margin-right: 0px;
+    display: inline;
+}
+#nav {font-weight:bold;}
+#nav a {color:#fff; background-color: #9ae; padding: 4px; margin: 0px;}
+#nav a:link {text-decoration: none;}
+#nav a:hover {text-decoration: underline; background-color: #89d;}
+
+a:link  {background-color: #ffedd3;}
+a:hover {color: blue;}
