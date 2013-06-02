@@ -72,7 +72,7 @@
 }
 
 body {background: #FEF9EC; padding-top: 20px; font-family: 'Quantico', sans;}
-#nav {margin-top: 8px; font-family: 'Quantico Bold'; font-weight: bold;}
+#nav {margin-top: 7px; font-family: 'Quantico Bold'; font-weight: bold;}
 #nav ul {margin: 8px 0 0 0;}
 #nav li {margin-right: 0px; display: inline;}
 #nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 1px 0 0; font-size: 16px;}
