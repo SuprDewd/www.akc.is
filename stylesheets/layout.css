@@ -62,9 +62,9 @@ body {background: #FEF9EC; padding-top: 20px;}
 #nav {margin-top: 8px; font-weight: bold;}
 #nav ul {margin: 7px 0 0 0;}
 #nav li {margin-right: 0px; display: inline;}
-#nav a {color:#fff; background-color: #ff910d; padding: 4px; margin: 0 2px 0 0;}
+#nav a {color:#fff; background-color: #62bbff; padding: 4px; margin: 0 2px 0 0;}
 #nav a:link {text-decoration: none;}
-#nav a:hover {text-decoration: none; background-color: #f56c0c}
+#nav a:hover {text-decoration: none; background-color: #50a9ec}
 
 a:link  {background-color: #ffedd3;}
 a:hover {color: blue;}
