@@ -70,14 +70,15 @@
     font-weight: bold;
     font-style: normal;
 }
-body {background: #FEF9EC; padding-top: 20px;}
+body {background: #FEF9EC; padding-top: 25px;}
 #nav {font-family: 'Quantico Bold'; font-weight: bold;}
-#nav li {margin: 0 1px 11px; 0; display: inline; float: left;}
-#nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 4px 0 0; font-size: 16px;}
+#nav li {margin: 0 0 11px; 0; display: inline; float: left;}
+#nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 5px 0 0; font-size: 16px;}
 #nav a:link {text-decoration: none;}
 #nav a:hover {text-decoration: none; background-color: #50a9ec; color: white;}
 
-#logo {width:261px; margin-top: -15px;}
+
+#logo {width:261px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
 #logo a {border: 0; background-color: #FEF9EC;}
 
 a:link  {background-color: #ffedd3;}
