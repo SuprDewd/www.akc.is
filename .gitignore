@@ -1,1 +1,7 @@
 bak/
+alt-images/
+site
+*.hi
+*.o
+_cache/
+_site/
