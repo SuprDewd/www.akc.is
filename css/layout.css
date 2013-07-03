@@ -71,6 +71,10 @@
     font-style: normal;
 }
 body {background: #FEF9EC; padding-top: 25px;}
+
+a:link  {color: #000044;}
+a:hover {color: #222299;}
+
 #nav, h1, h2, h3, h4, h5 {font-family: 'Quantico Bold'; font-weight: bold;}
 #nav li {margin: 0 0 11px; 0; display: inline; float: left;}
 #nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 5px 0 0; font-size: 16px;}
@@ -81,5 +85,4 @@ body {background: #FEF9EC; padding-top: 25px;}
 #logo {width:261px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
 #logo a {border: 0; background-color: #FEF9EC;}
 
-a:link  {background-color: #ffedd3;}
-a:hover {color: blue;}
+#me {float:left; border: 0; padding: 0 18px 15px 0; vertical-align: bottom;}
