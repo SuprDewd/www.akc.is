@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend)
 import Hakyll
+import Papers
 
 main :: IO ()
 main = hakyll $ do
@@ -19,3 +20,6 @@ main = hakyll $ do
      compile $ pandocCompiler
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
+
+--   create ["papers.html"] $ do
+--      let 
