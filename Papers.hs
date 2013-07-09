@@ -1,6 +1,6 @@
 module Papers (Paper(..), papers) where
 
-data Status = Preprint | Accepted | Published
+data Status = Preprint | Accepted | Published deriving Show
 
 data Paper = Paper
     { stage     :: Status
@@ -12,8 +12,26 @@ data Paper = Paper
     , year      :: String
     , note      :: String
     , url       :: String
-    , unixtime  :: Int
+    , date      :: String
+    , filename  :: String
     }
+
+instance Show Paper where
+    show p =
+        unlines
+        [ "---"
+        , "stage:    " ++ show (stage p)
+        , "authors:  " ++ authors  p
+        , "title:    " ++ title    p
+        , "journal:  " ++ journal  p
+        , "volume:   " ++ volume   p
+        , "pages:    " ++ pages    p
+        , "year:     " ++ year     p
+        , "note:     " ++ note     p
+        , "url:      " ++ url      p
+        , "date:     " ++ date     p
+        , "---"
+        ]
 
 papers =
   [ Paper
@@ -26,19 +44,21 @@ papers =
     , year     = "2012"
     , note     = ""
     , url      = "http://arxiv.org/abs/1210.3219"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CKdeM-Preprint.md"
     }
   , Paper
     { stage    = Accepted
     , authors  = "Anders Claesson, Sergey Kitaev, Einar Steingrímsson"
     , title    = "An involution on β(1,0)-trees"
     , journal  = "Advances in Applied Mathematics"
-    , volume   = ""
-    , pages    = ""
+    , volume   = "51"
+    , pages    = "276--284"
     , year     = "2012"
-    , note     = ""
+    , note     = "http://dx.doi.org/10.1016/j.aam.2013.04.002"
     , url      = "http://arxiv.org/abs/1210.1608"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CKS-2012.md"
     }
   , Paper
     { stage    = Published
@@ -50,7 +70,8 @@ papers =
     , year     = "2012"
     , note     = ""
     , url      = "http://arxiv.org/abs/1203.2437"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CU-2012.md"
     }
   , Paper
     { stage    = Published
@@ -62,7 +83,8 @@ papers =
     , year     = "2012"
     , note     = ""
     , url      = "http://arxiv.org/abs/1111.5736"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CJS-2012.md"
     }
   , Paper
     { stage    = Published
@@ -74,7 +96,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://www.combinatorics.org/Volume_18/Abstracts/v18i2p5.html"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "BC-2011.md"
     }
   , Paper
     { stage    = Published
@@ -86,7 +109,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://arxiv.org/abs/1008.5299"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "AABCD-2011.md"
     }
   , Paper
     { stage    = Published
@@ -98,7 +122,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://arxiv.org/abs/1006.1312"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CDKu-2011.md"
     }
   , Paper
     { stage    = Published
@@ -110,7 +135,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://www.combinatorics.org/Volume_18/Abstracts/v18i1p25.html"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CJJK-2011.md"
     }
   , Paper
     { stage    = Published
@@ -122,7 +148,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://arxiv.org/abs/1003.4728"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CL-2011.md"
     }
   , Paper
     { stage    = Published
@@ -134,7 +161,8 @@ papers =
     , year     = "2011"
     , note     = ""
     , url      = "http://arxiv.org/abs/0910.1619"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CDKi-2011.md"
     }
   , Paper
     { stage    = Published
@@ -146,7 +174,8 @@ papers =
     , year     = "2010"
     , note     = "Extended abstract appeared at FPSAC 2010"
     , url      = "http://arxiv.org/abs/0908.2456"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CCDG-2010.md"
     }
   , Paper
     { stage    = Published
@@ -158,7 +187,8 @@ papers =
     , year     = "2009"
     , note     = "doi:10.1016/j.aam.2008.09.001"
     , url      = "http://arxiv.org/abs/0801.4037"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CKS-2009.md"
     }
   , Paper
     { stage    = Published
@@ -170,7 +200,8 @@ papers =
     , year     = "2001"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/Cl01__Generalized_Pattern.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "C-2001.md"
     }
   , Paper
     { stage    = Published
@@ -182,7 +213,8 @@ papers =
     , year     = "2005"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClMa05__Enumerating_permutations.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CM-2005.md"
     }
   , Paper
     { stage    = Published
@@ -194,7 +226,8 @@ papers =
     , year     = "2007"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClPe07__Conways_napkin.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CP-2007.md"
     }
   , Paper
     { stage    = Published
@@ -206,7 +239,8 @@ papers =
     , year     = "2005"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/Cl05__Counting_segmented.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "C-2005.md"
     }
   , Paper
     { stage    = Published
@@ -218,7 +252,8 @@ papers =
     , year     = "2010"
     , note     = "Extended abstract appeared at FPSAC 2009"
     , url      = "http://arxiv.org/abs/0806.0666"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "BCDK-2010.md"
     }
   , Paper
     { stage    = Published
@@ -230,7 +265,8 @@ papers =
     , year     = "2010"
     , note     = ""
     , url      = "http://arxiv.org/abs/0808.2307"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CKRT-2010.md"
     }
   , Paper
     { stage    = Published
@@ -242,7 +278,8 @@ papers =
     , year     = "2002"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/BrClSt02__Catalan_Continued.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "BCS-2002.md"
     }
   , Paper
     { stage    = Published
@@ -254,7 +291,8 @@ papers =
     , year     = "2002"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClMa02__Counting_Occurrences.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CM-2002.md"
     }
   , Paper
     { stage    = Published
@@ -266,7 +304,8 @@ papers =
     , year     = "2003"
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClGoWa03__A_Permutation.pdf"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CGW-2003.md"
     }
   , Paper
     { stage    = Published
@@ -278,7 +317,8 @@ papers =
     , year     = "2010"
     , note     = ""
     , url      = "http://arxiv.org/abs/0812.0143"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CDS-2010.md"
     }
   , Paper
     { stage    = Published
@@ -290,6 +330,12 @@ papers =
     , year     = "2008"
     , note     = "Extended abstract appeared at FPSAC 2008"
     , url      = "http://www.emis.de/journals/SLC/wpapers/s60claekit.html"
-    , unixtime = 1372708800
+    , date     = "Tue Jul  9 22:57:53 BST 2013"
+    , filename = "CK-2008.md"
     }
   ]
+
+toFile :: Paper -> IO ()
+toFile p = writeFile ("papers/" ++ filename p) (show p)
+
+go = mapM_ toFile papers
