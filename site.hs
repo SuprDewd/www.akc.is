@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-import Data.Monoid (mappend)
+import Data.Monoid (mappend, mconcat)
 import Hakyll
 import Papers
 
@@ -21,5 +21,27 @@ main = hakyll $ do
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
 
---   create ["papers.html"] $ do
---      let 
+  -- create ["papers.html"] $ do
+  --    route idRoute
+  --    compile $ do
+  --      paper <- papers
+  --      makeItem $ itemBody 
+
+paperContext :: Paper -> Context String
+paperContext p =
+    mconcat [ constField "Authors"  (authors p)
+            , constField "Title"    (title   p)
+            , constField "Journal"  (journal p)
+            , constField "Volume"   (volume  p)
+            , constField "Pages"    (pages   p)
+            , constField "Year"     (year    p)
+            , constField "Note"     (note    p)
+            , constField "URL"      (url     p)
+            , constField "UnixTime" (show (unixtime p))
+            , defaultContext
+            ]
+
+-- paperCompiler = do
+--   let paper = head papers
+--   tpl   <- loadBody "templates/paper.html"
+--   applyTemplate tpl (paperContext paper) (makeItem "")
