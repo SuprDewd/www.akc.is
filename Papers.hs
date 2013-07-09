@@ -45,7 +45,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1210.3219"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CKdeM-Preprint.md"
+    , filename = "Preprint-CKdeM.md"
     }
   , Paper
     { stage    = Accepted
@@ -58,7 +58,7 @@ papers =
     , note     = "http://dx.doi.org/10.1016/j.aam.2013.04.002"
     , url      = "http://arxiv.org/abs/1210.1608"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CKS-2012.md"
+    , filename = "12CKS.md"
     }
   , Paper
     { stage    = Published
@@ -71,7 +71,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1203.2437"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CU-2012.md"
+    , filename = "12CU.md"
     }
   , Paper
     { stage    = Published
@@ -84,7 +84,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1111.5736"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CJS-2012.md"
+    , filename = "12CJS.md"
     }
   , Paper
     { stage    = Published
@@ -97,7 +97,7 @@ papers =
     , note     = ""
     , url      = "http://www.combinatorics.org/Volume_18/Abstracts/v18i2p5.html"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "BC-2011.md"
+    , filename = "11BC.md"
     }
   , Paper
     { stage    = Published
@@ -110,7 +110,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1008.5299"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "AABCD-2011.md"
+    , filename = "11AABCD.md"
     }
   , Paper
     { stage    = Published
@@ -123,7 +123,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1006.1312"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CDKu-2011.md"
+    , filename = "11CDKu.md"
     }
   , Paper
     { stage    = Published
@@ -136,7 +136,7 @@ papers =
     , note     = ""
     , url      = "http://www.combinatorics.org/Volume_18/Abstracts/v18i1p25.html"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CJJK-2011.md"
+    , filename = "11CJJK.md"
     }
   , Paper
     { stage    = Published
@@ -149,7 +149,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/1003.4728"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CL-2011.md"
+    , filename = "11CL.md"
     }
   , Paper
     { stage    = Published
@@ -162,7 +162,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/0910.1619"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CDKi-2011.md"
+    , filename = "11CDKi.md"
     }
   , Paper
     { stage    = Published
@@ -175,7 +175,7 @@ papers =
     , note     = "Extended abstract appeared at FPSAC 2010"
     , url      = "http://arxiv.org/abs/0908.2456"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CCDG-2010.md"
+    , filename = "10CCDG.md"
     }
   , Paper
     { stage    = Published
@@ -188,7 +188,7 @@ papers =
     , note     = "doi:10.1016/j.aam.2008.09.001"
     , url      = "http://arxiv.org/abs/0801.4037"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CKS-2009.md"
+    , filename = "09CKS.md"
     }
   , Paper
     { stage    = Published
@@ -201,7 +201,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/Cl01__Generalized_Pattern.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "C-2001.md"
+    , filename = "01C.md"
     }
   , Paper
     { stage    = Published
@@ -214,7 +214,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClMa05__Enumerating_permutations.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CM-2005.md"
+    , filename = "05CM.md"
     }
   , Paper
     { stage    = Published
@@ -227,7 +227,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClPe07__Conways_napkin.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CP-2007.md"
+    , filename = "07CP.md"
     }
   , Paper
     { stage    = Published
@@ -240,7 +240,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/Cl05__Counting_segmented.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "C-2005.md"
+    , filename = "05C.md"
     }
   , Paper
     { stage    = Published
@@ -253,7 +253,7 @@ papers =
     , note     = "Extended abstract appeared at FPSAC 2009"
     , url      = "http://arxiv.org/abs/0806.0666"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "BCDK-2010.md"
+    , filename = "10BCDK.md"
     }
   , Paper
     { stage    = Published
@@ -266,7 +266,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/0808.2307"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CKRT-2010.md"
+    , filename = "10CKRT.md"
     }
   , Paper
     { stage    = Published
@@ -279,7 +279,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/BrClSt02__Catalan_Continued.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "BCS-2002.md"
+    , filename = "02BCS.md"
     }
   , Paper
     { stage    = Published
@@ -292,7 +292,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClMa02__Counting_Occurrences.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CM-2002.md"
+    , filename = "02CM.md"
     }
   , Paper
     { stage    = Published
@@ -305,7 +305,7 @@ papers =
     , note     = ""
     , url      = "http://combinatorics.cis.strath.ac.uk/download/ClGoWa03__A_Permutation.pdf"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CGW-2003.md"
+    , filename = "03CGW.md"
     }
   , Paper
     { stage    = Published
@@ -318,7 +318,7 @@ papers =
     , note     = ""
     , url      = "http://arxiv.org/abs/0812.0143"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CDS-2010.md"
+    , filename = "10CDS.md"
     }
   , Paper
     { stage    = Published
@@ -331,7 +331,7 @@ papers =
     , note     = "Extended abstract appeared at FPSAC 2008"
     , url      = "http://www.emis.de/journals/SLC/wpapers/s60claekit.html"
     , date     = "Tue Jul  9 22:57:53 BST 2013"
-    , filename = "CK-2008.md"
+    , filename = "08CK.md"
     }
   ]
 
