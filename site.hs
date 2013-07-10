@@ -1,4 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
+import Control.Applicative ((<$>))
 import Data.Monoid ((<>), mconcat)
 import Hakyll
 
@@ -26,21 +27,14 @@ main = hakyll $ do
      route idRoute
      compile $ do
        p <- papers
-       let ctx = constField "title" "Papers and preprints" <> constField "papers" p <> defaultContext
+       let ctx = constField "papers" p <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
-
-  -- create ["papers.html"] $ do
-  --    route idRoute
-  --    compile $ do
-  --      p <- papers
-  --      makeItem ""
-  --         >>= loadAndApplyTemplate "templates/default.html" (titleField "Buhu" <> bodyField "HELLO!")
-  --         >>= relativizeUrls
+          >>= relativizeUrls
 
 papers :: Compiler String
 papers = do
   tpl <- loadBody "templates/paper.html"
-  ps  <- loadAll "papers/*.md"
+  ps  <- loadAll "papers/*.md" >>= recentFirst
   applyTemplateList tpl defaultContext ps

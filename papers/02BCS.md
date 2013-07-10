@@ -1,12 +1,12 @@
 ---
-stage:    Published
-authors:  Petter Brändén, Anders Claesson, Einar Steingrímsson
-title:    Catalan Continued Fractions and Increasing Subsequences in Permutations
-journal:  Discrete Mathematics
-volume:   258
-pages:    275--287
-year:     2002
-doi:      http://dx.doi.org/10.1016%2fS0012-365X(02)00353-9
-url:      http://combinatorics.cis.strath.ac.uk/download/BrClSt02__Catalan_Continued.pdf
-date:     Tue Jul  9 22:57:53 BST 2013
+stage:     Published
+published: 2002-01-01
+authors:   Petter Brändén, Anders Claesson, Einar Steingrímsson
+title:     Catalan Continued Fractions and Increasing Subsequences in Permutations
+journal:   Discrete Mathematics
+volume:    258
+pages:     275--287
+year:      2002
+doi:       http://dx.doi.org/10.1016%2fS0012-365X(02)00353-9
+url:       http://combinatorics.cis.strath.ac.uk/download/BrClSt02__Catalan_Continued.pdf
 ---
