@@ -6,7 +6,6 @@ journal:  Journal of Combinatorics
 volume:   2
 pages:    231--243
 year:     2011
-note:     
 url:      http://arxiv.org/abs/1008.5299
 date:     Tue Jul  9 22:57:53 BST 2013
 ---

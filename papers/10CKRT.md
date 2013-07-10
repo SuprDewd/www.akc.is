@@ -6,7 +6,6 @@ journal:  The Australasian Journal of Combinatorics
 volume:   48
 pages:    159--173
 year:     2010
-note:     
 url:      http://arxiv.org/abs/0808.2307
 date:     Tue Jul  9 22:57:53 BST 2013
 ---

@@ -6,7 +6,6 @@ journal:  Journal of Combinatorial Theory Series A
 volume:   119(8)
 pages:    1680--1691
 year:     2012
-note:     
 url:      http://arxiv.org/abs/1111.5736
 date:     Tue Jul  9 22:57:53 BST 2013
 ---

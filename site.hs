@@ -1,7 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
-import Data.Monoid (mappend, mconcat)
+import Data.Monoid ((<>), mconcat)
 import Hakyll
-import Papers
 
 main :: IO ()
 main = hakyll $ do
@@ -21,27 +20,27 @@ main = hakyll $ do
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
 
+  match "papers/*.md" $ compile $ pandocCompiler
+
+  create ["papers.html"] $ do
+     route idRoute
+     compile $ do
+       p <- papers
+       let ctx = constField "title" "Papers and preprints" <> constField "papers" p <> defaultContext
+       makeItem ""
+          >>= loadAndApplyTemplate "templates/papers.html" ctx
+          >>= loadAndApplyTemplate "templates/default.html" defaultContext
+
   -- create ["papers.html"] $ do
   --    route idRoute
   --    compile $ do
-  --      paper <- papers
-  --      makeItem $ itemBody 
+  --      p <- papers
+  --      makeItem ""
+  --         >>= loadAndApplyTemplate "templates/default.html" (titleField "Buhu" <> bodyField "HELLO!")
+  --         >>= relativizeUrls
 
-paperContext :: Paper -> Context String
-paperContext p =
-    mconcat [ constField "Authors"  (authors p)
-            , constField "Title"    (title   p)
-            , constField "Journal"  (journal p)
-            , constField "Volume"   (volume  p)
-            , constField "Pages"    (pages   p)
-            , constField "Year"     (year    p)
-            , constField "Note"     (note    p)
-            , constField "URL"      (url     p)
-            , constField "UnixTime" (show (unixtime p))
-            , defaultContext
-            ]
-
--- paperCompiler = do
---   let paper = head papers
---   tpl   <- loadBody "templates/paper.html"
---   applyTemplate tpl (paperContext paper) (makeItem "")
+papers :: Compiler String
+papers = do
+  tpl <- loadBody "templates/paper.html"
+  ps  <- loadAll "papers/*.md"
+  applyTemplateList tpl defaultContext ps

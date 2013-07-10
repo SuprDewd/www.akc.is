@@ -6,7 +6,6 @@ journal:  Discrete Mathematics
 volume:   269
 pages:    273--279
 year:     2003
-note:     
 url:      http://combinatorics.cis.strath.ac.uk/download/ClGoWa03__A_Permutation.pdf
 date:     Tue Jul  9 22:57:53 BST 2013
 ---

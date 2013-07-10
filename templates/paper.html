@@ -1,6 +1,11 @@
 <div class="paper">
   $authors$<br/>
-  <a href="$url$">$title</a><br/>
+  <a href="$url$">$title$</a><br/>
   $journal$ $volume$ ($year$) $pages$<br/>
-  <div class="note">$note$</div><br/>
+  $if(doi)$
+    <a href="$doi$" class="doi">$doi$</a><br/>
+  $endif$
+  $if(note)$
+    <div class="note">$note$</div>
+  $endif$
 </div>
