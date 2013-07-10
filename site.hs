@@ -23,7 +23,7 @@ main = hakyll $ do
 
   match "papers/*.md" $ compile $ pandocCompiler
 
-  create ["papers.html"] $ do
+  create ["papers/index.html"] $ do
      route idRoute
      compile $ do
        p <- papers
