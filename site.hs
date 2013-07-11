@@ -3,12 +3,6 @@ import Control.Applicative ((<$>))
 import Data.Monoid ((<>), mconcat)
 import Hakyll
 
-compile' =
-   compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
-
-
 main :: IO ()
 main = hakyll $ do
   match ("images/*.png" .||. "images/*.ico" .||. "fonts/*") $ do
@@ -29,6 +23,10 @@ main = hakyll $ do
      route $ constRoute "teaching/index.html"
      compile'
 
+  match "cv.md" $ do
+     route $ constRoute "cv/index.html"
+     compile'
+
   match "papers/*.md" $ compile $ pandocCompiler
 
   create ["papers/index.html"] $ do
@@ -46,3 +44,8 @@ papers = do
   tpl <- loadBody "templates/paper.html"
   ps  <- loadAll "papers/*.md" >>= recentFirst
   applyTemplateList tpl defaultContext ps
+
+compile' =
+   compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
