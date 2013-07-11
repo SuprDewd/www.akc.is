@@ -3,23 +3,31 @@ import Control.Applicative ((<$>))
 import Data.Monoid ((<>), mconcat)
 import Hakyll
 
+compile' =
+   compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+
+
 main :: IO ()
 main = hakyll $ do
   match ("images/*.png" .||. "images/*.ico" .||. "fonts/*") $ do
-    route   idRoute
+    route idRoute
     compile copyFileCompiler
 
   match "css/*" $ do
-    route   idRoute
+    route idRoute
     compile compressCssCompiler
 
   match "templates/*" $ compile templateCompiler
 
   match "index.md" $ do
-     route   $ setExtension "html"
-     compile $ pandocCompiler
-        >>= loadAndApplyTemplate "templates/default.html" defaultContext
-        >>= relativizeUrls
+     route $ setExtension "html"
+     compile'
+
+  match "teaching.md" $ do
+     route $ constRoute "teaching/index.html"
+     compile'
 
   match "papers/*.md" $ compile $ pandocCompiler
 
