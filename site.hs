@@ -32,11 +32,6 @@ main = hakyll $ do
 
   match "papers/*.md" $ compile $ pandocCompiler
 
-  -- create ["coautors/index.html"] $ do
-  --    route $ constRoute "coautors/index.html"
-  --    compile $ do
-
-
   create ["papers/index.html"] $ do
      route idRoute
      compile $ do
@@ -44,6 +39,15 @@ main = hakyll $ do
        let ctx = constField "papers" p <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
+          >>= loadAndApplyTemplate "templates/default.html" defaultContext
+          >>= relativizeUrls
+
+  create ["coauthors/index.html"] $ do
+     route idRoute
+     compile $ do
+       let ctx = listField "coauthors" defaultContext coauthors <> defaultContext
+       makeItem ""
+          >>= loadAndApplyTemplate "templates/coauthors.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
           >>= relativizeUrls
 
@@ -56,6 +60,7 @@ papers = do
 -- loadAll :: (.. a) => Pattern -> Compiler [Item a]
 -- itemIdentifier :: Item a -> Identifier
 -- getMetadataField' :: MonadMetadata m => Identifier -> String -> m String
+-- makeItem :: a -> Compiler (Item a)
 
 -- Split string on commas
 split :: String -> [String]
@@ -73,12 +78,12 @@ getAuthorYear item = do
   y  <- getYear item
   return [ (a,y) | a<-as ]
 
-coauthors :: Compiler [String]
+coauthors :: Compiler [Item String]
 coauthors = do
   ps <- loadAll "papers/*.md" :: Compiler [Item String]
   xs <- mapM getAuthorYear ps
   let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
-  return [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
+  mapM makeItem [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
 
 compile' =
    compile $ pandocCompiler
