@@ -1,6 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Applicative ((<$>))
 import Data.Monoid ((<>), mconcat)
+import Data.Function
+import Data.List
+import qualified Data.Text as T
 import Hakyll
 
 main :: IO ()
@@ -29,6 +32,11 @@ main = hakyll $ do
 
   match "papers/*.md" $ compile $ pandocCompiler
 
+  -- create ["coautors/index.html"] $ do
+  --    route $ constRoute "coautors/index.html"
+  --    compile $ do
+
+
   create ["papers/index.html"] $ do
      route idRoute
      compile $ do
@@ -42,8 +50,35 @@ main = hakyll $ do
 papers :: Compiler String
 papers = do
   tpl <- loadBody "templates/paper.html"
-  ps  <- loadAll "papers/*.md" >>= recentFirst
+  ps  <- recentFirst =<< loadAll "papers/*.md"
   applyTemplateList tpl defaultContext ps
+
+-- loadAll :: (.. a) => Pattern -> Compiler [Item a]
+-- itemIdentifier :: Item a -> Identifier
+-- getMetadataField' :: MonadMetadata m => Identifier -> String -> m String
+
+-- Split string on commas
+split :: String -> [String]
+split s = map (T.unpack . T.strip) $ T.splitOn (T.pack ",") (T.pack s)
+
+getAuthors :: Item String -> Compiler [String]
+getAuthors item = split `fmap` getMetadataField' (itemIdentifier item) "authors"
+
+getYear :: Item String -> Compiler String
+getYear item = getMetadataField' (itemIdentifier item) "year"
+
+getAuthorYear :: Item String -> Compiler [(String, String)]
+getAuthorYear item = do
+  as <- getAuthors item
+  y  <- getYear item
+  return [ (a,y) | a<-as ]
+
+coauthors :: Compiler [String]
+coauthors = do
+  ps <- loadAll "papers/*.md" :: Compiler [Item String]
+  xs <- mapM getAuthorYear ps
+  let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
+  return [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
 
 compile' =
    compile $ pandocCompiler

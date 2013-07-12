@@ -3,5 +3,6 @@ alt-images/
 site
 *.hi
 *.o
+*.sh
 _cache/
 _site/
