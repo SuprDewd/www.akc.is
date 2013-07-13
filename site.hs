@@ -37,6 +37,7 @@ main = hakyll $ do
      route idRoute
      compile $ do
        p <- papers
+       s <- publicationRecord
        let ctx = constField "papers" p <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
@@ -58,11 +59,6 @@ papers = do
   ps  <- recentFirst =<< loadAll "papers/*.md"
   applyTemplateList tpl defaultContext ps
 
--- loadAll :: (.. a) => Pattern -> Compiler [Item a]
--- itemIdentifier :: Item a -> Identifier
--- getMetadataField' :: MonadMetadata m => Identifier -> String -> m String
--- makeItem :: a -> Compiler (Item a)
-
 -- Split string on commas
 split :: String -> [String]
 split s = map (T.unpack . T.strip) $ T.splitOn (T.pack ",") (T.pack s)
@@ -79,26 +75,28 @@ getAuthorYear item = do
   y  <- getYear item
   return [ (a,y) | a<-as ]
 
--- coauthors :: Compiler [Item String]
--- coauthors = do
---   ps <- loadAll "papers/*.md" :: Compiler [Item String]
---   xs <- mapM getAuthorYear ps
---   let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
---   mapM makeItem [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
-
 coauthors :: Compiler [Item String]
 coauthors = do
   ps  <- loadAll "papers/*.md"
   xs  <- mapM getAuthorYear ps
   tpl <- loadBody "templates/coauthor.html"
-  forM (groupBy ((==) `on` fst) $ sort $ concat xs) $ \zs -> do
-      let (a:_, ys) = unzip zs
+  let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
+  let zss' = tail
+             $ map snd
+             $ sort [ ((-length ys, -(maximum $ map read ys)), (a,ys)) | (a:_, ys) <- zss ]
+  forM  zss' $ \(a,ys) -> do
       let ys' = map read ys
-      let years = concat $ intersperse ", " ys
+      let years = concat $ intersperse ", " $ nub ys
       let ctx = constField "coauthor" a  <> 
                 constField "years" years <>
-                constField "spark" (spark (map fromIntegral $ yearDistribution ys'))
+                constField "spark" (spark (map fromIntegral $ tail $ yearDistribution ys'))
       makeItem "" >>= applyTemplate tpl ctx
+
+publicationRecord :: Compiler String
+publicationRecord = do
+  ps <- loadAll "papers/*.md"
+  ys <- mapM getYear ps
+  return . spark . map fromIntegral . yearDistribution $ map read ys
 
 compile' =
    compile $ pandocCompiler
@@ -115,4 +113,4 @@ runLengths :: Eq a => [a] -> [Int]
 runLengths = map length . group
 
 yearDistribution :: [Int] -> [Int]
-yearDistribution ys = map (+(-1)) . runLengths . sort $ ys ++ [2002..2013]
+yearDistribution ys = map (+(-1)) . runLengths . sort $ ys ++ [2001..2013]
