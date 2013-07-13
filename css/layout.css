@@ -98,5 +98,9 @@ h4 { font-size: 16px; line-height: 20px; }
 h5 { font-size: 14px; line-height: 19px; }
 h6 { font-size: 13px; line-height: 17px; }
 
-ol, ul {list-style: square outside; margin-left:1em; padding-left:0px; }
-li {margin-left:1em; margin-bottom:0.6ex;}
+ol, ul {list-style: square outside; margin-left:1.5em; padding-left:0px; }
+li {margin-left:0; margin-bottom:0.6ex;}
+
+#coauthors {list-style: none; margin: 0;}
+#coauthors strong {color: #5E594C;}
+.spark {font-size: 55%; font-family: 'Fixed, monospace'; color: #8E897C;}

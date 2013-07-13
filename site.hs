@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Applicative ((<$>))
-import Data.Monoid ((<>), mconcat)
+import Control.Monad
+import Data.Monoid ((<>))
 import Data.Function
 import Data.List
 import qualified Data.Text as T
@@ -45,7 +46,7 @@ main = hakyll $ do
   create ["coauthors/index.html"] $ do
      route idRoute
      compile $ do
-       let ctx = listField "coauthors" defaultContext coauthors <> defaultContext
+       let ctx = listField "coauthors" defaultContext coauthors
        makeItem ""
           >>= loadAndApplyTemplate "templates/coauthors.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -78,14 +79,40 @@ getAuthorYear item = do
   y  <- getYear item
   return [ (a,y) | a<-as ]
 
+-- coauthors :: Compiler [Item String]
+-- coauthors = do
+--   ps <- loadAll "papers/*.md" :: Compiler [Item String]
+--   xs <- mapM getAuthorYear ps
+--   let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
+--   mapM makeItem [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
+
 coauthors :: Compiler [Item String]
 coauthors = do
-  ps <- loadAll "papers/*.md" :: Compiler [Item String]
-  xs <- mapM getAuthorYear ps
-  let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
-  mapM makeItem [ a ++ ": " ++ (concat $ intersperse ", " ys) | (a:_, ys) <- zss ]
+  ps  <- loadAll "papers/*.md"
+  xs  <- mapM getAuthorYear ps
+  tpl <- loadBody "templates/coauthor.html"
+  forM (groupBy ((==) `on` fst) $ sort $ concat xs) $ \zs -> do
+      let (a:_, ys) = unzip zs
+      let ys' = map read ys
+      let years = concat $ intersperse ", " ys
+      let ctx = constField "coauthor" a  <> 
+                constField "years" years <>
+                constField "spark" (spark (map fromIntegral $ yearDistribution ys'))
+      makeItem "" >>= applyTemplate tpl ctx
 
 compile' =
    compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
+
+-- Stolen from https://github.com/Mgccl/mgccl-haskell/blob/master/random/spark.hs
+spark :: [Double] -> String
+spark list = map ("▁▂▃▄▅▆▇" !!) xs
+    where zs = map (flip (-) (minimum list)) list
+          xs = map (round . (* 6) . (/ maximum zs)) zs
+
+runLengths :: Eq a => [a] -> [Int]
+runLengths = map length . group
+
+yearDistribution :: [Int] -> [Int]
+yearDistribution ys = map (+(-1)) . runLengths . sort $ ys ++ [2002..2013]
