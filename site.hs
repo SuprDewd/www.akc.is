@@ -37,7 +37,6 @@ main = hakyll $ do
      route idRoute
      compile $ do
        p <- papers
-       s <- publicationRecord
        let ctx = constField "papers" p <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
@@ -84,19 +83,20 @@ coauthors = do
   let zss' = tail
              $ map snd
              $ sort [ ((-length ys, -(maximum $ map read ys)), (a,ys)) | (a:_, ys) <- zss ]
+  let largest = fromIntegral $ maximum $ map (maximum . yearDistribution . map read . snd) zss'
   forM  zss' $ \(a,ys) -> do
       let ys' = map read ys
       let years = concat $ intersperse ", " $ nub ys
       let ctx = constField "coauthor" a  <> 
                 constField "years" years <>
-                constField "spark" (spark (map fromIntegral $ tail $ yearDistribution ys'))
+                constField "spark" (spark largest (map fromIntegral $ tail $ yearDistribution ys'))
       makeItem "" >>= applyTemplate tpl ctx
 
-publicationRecord :: Compiler String
-publicationRecord = do
-  ps <- loadAll "papers/*.md"
-  ys <- mapM getYear ps
-  return . spark . map fromIntegral . yearDistribution $ map read ys
+-- publicationRecord :: Compiler String
+-- publicationRecord = do
+--   ps <- loadAll "papers/*.md"
+--   ys <- mapM getYear ps
+--   return . spark . map fromIntegral . yearDistribution $ map read ys
 
 compile' =
    compile $ pandocCompiler
@@ -104,10 +104,10 @@ compile' =
       >>= relativizeUrls
 
 -- Stolen from https://github.com/Mgccl/mgccl-haskell/blob/master/random/spark.hs
-spark :: [Double] -> String
-spark list = map ("▁▂▃▄▅▆▇" !!) xs
+spark :: Double -> [Double] -> String
+spark largest list = map ("▁▂▃▄▅▆▇" !!) xs
     where zs = map (flip (-) (minimum list)) list
-          xs = map (round . (* 6) . (/ maximum zs)) zs
+          xs = map (round . (* 6) . (/ largest)) zs
 
 runLengths :: Eq a => [a] -> [Int]
 runLengths = map length . group
