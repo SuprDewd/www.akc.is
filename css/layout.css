@@ -101,6 +101,6 @@ h6 { font-size: 13px; line-height: 17px; }
 ol, ul {list-style: square outside; margin-left:1.5em; padding-left:0px; }
 li {margin-left:0; margin-bottom:0.6ex;}
 
-#coauthors {list-style: none; margin: 0;}
+#coauthors td {padding: 0 2px 3px 0; vertical-align: bottom; }
 #coauthors strong {color: #5E594C;}
-.spark {font-size: 55%; font-family: 'Fixed, monospace'; color: #8E897C;}
+#coauthors td.spark {font-size: 60%; font-family: monospace; color: #8E897C; vertical-align: top;}
