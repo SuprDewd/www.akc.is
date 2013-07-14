@@ -31,7 +31,9 @@ main = hakyll $ do
      route $ constRoute "cv/index.html"
      compile'
 
-  match "papers/*.md" $ compile $ pandocCompiler
+  match "papers/*.md" $ do
+     route   $ setExtension "html"
+     compile $ pandocCompiler >>= saveSnapshot "papers"
 
   create ["papers/index.html"] $ do
      route idRoute
@@ -52,6 +54,22 @@ main = hakyll $ do
           >>= loadAndApplyTemplate "templates/coauthors.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
           >>= relativizeUrls
+
+  create ["feed.xml"] $ do
+     route idRoute
+     compile $ do
+       let ctx = defaultContext <> bodyField "description"
+       ps <- recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
+       renderAtom feedConfiguration ctx ps
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+    { feedTitle       = "akc.is"
+    , feedDescription = "Recent papers (etc) by Anders Claesson"
+    , feedAuthorName  = "Anders Claesson"
+    , feedAuthorEmail = "akc@akc.is"
+    , feedRoot        = "http://akc.is/"
+    }
 
 papers :: Compiler String
 papers = do
