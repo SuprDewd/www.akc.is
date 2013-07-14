@@ -9,7 +9,7 @@ title: Home
      width="135px"
      />
 </div>
-<div class="eleven columns">
+<div class="nine columns">
   **Anders Claesson**, senior lecturer at
   [University of Strathclyde](http://www.strath.ac.uk/cis/),
   and a member of the
@@ -21,12 +21,12 @@ title: Home
 </div>
 </div>
 <div class="row">
-<div class="seven columns">
-  Work email:
+<div class="six columns">
+  Work:
   [anders.claesson@strath.ac.uk](mailto:anders.claesson@strath.ac.uk) \
 </div>
-<div class="seven columns">
-  Personal email:
+<div class="six columns">
+  Personal:
   [akc@akc.is](mailto:akc@akc.is) \
 </div>
 </div>

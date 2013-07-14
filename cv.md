@@ -1,4 +1,4 @@
-<div class="sixteen columns">
+<div class="twelve columns">
 
 # Curriculum vitae of Anders Claesson
 
