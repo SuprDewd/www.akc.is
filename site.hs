@@ -37,7 +37,8 @@ main = hakyll $ do
      route idRoute
      compile $ do
        p <- papers
-       let ctx = constField "papers" p <> defaultContext
+       r <- publicationRecord
+       let ctx = constField "papers" p <> constField "spark" r <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -83,7 +84,7 @@ coauthors = do
   let zss' = tail
              $ map snd
              $ sort [ ((-length ys, -(maximum $ map read ys)), (a,ys)) | (a:_, ys) <- zss ]
-  let largest = fromIntegral $ maximum $ map (maximum . yearDistribution . map read . snd) zss'
+  largest <- mostPublished
   forM  zss' $ \(a,ys) -> do
       let ys' = map read ys
       let years = concat $ intersperse ", " $ nub ys
@@ -92,11 +93,18 @@ coauthors = do
                 constField "spark" (spark largest (map fromIntegral $ tail $ yearDistribution ys'))
       makeItem "" >>= applyTemplate tpl ctx
 
--- publicationRecord :: Compiler String
--- publicationRecord = do
---   ps <- loadAll "papers/*.md"
---   ys <- mapM getYear ps
---   return . spark . map fromIntegral . yearDistribution $ map read ys
+mostPublished :: Compiler Double
+mostPublished = do
+  ps <- loadAll "papers/*.md"
+  ys <- mapM getYear ps
+  return . fromIntegral . maximum . yearDistribution $ map read ys
+
+publicationRecord :: Compiler String
+publicationRecord = do
+  ps <- loadAll "papers/*.md"
+  ys <- mapM getYear ps
+  m  <- mostPublished
+  return . spark m . map fromIntegral . yearDistribution $ map read ys
 
 compile' =
    compile $ pandocCompiler

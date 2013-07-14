@@ -103,5 +103,6 @@ li {margin-left:0; margin-bottom:0.6ex;}
 
 #coauthors td {padding: 0 6px 3px 0; vertical-align: bottom; }
 #coauthors strong {color: #5E594C; font-family: 'Quantico Bold';}
-#coauthors td.spark {font-size: 9px; font-family: monospace; color: #8E897C; vertical-align: top;}
+#coauthors td.spark {font-size: 9px; font-family: fixed, monospace; color: #AEA99C; vertical-align: top;}
 #coauthors .years {font-size: 12px; font-family: 'Quantico Regular';}
+h1.spark {font-size: 25px; font-family: fixed, monospace; color: #DED9CC; margin-bottom: 13px;}
