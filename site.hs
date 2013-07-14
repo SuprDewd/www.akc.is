@@ -32,15 +32,19 @@ main = hakyll $ do
      compile'
 
   match "papers/*.md" $ do
-     route   $ setExtension "html"
-     compile $ pandocCompiler >>= saveSnapshot "papers"
+     compile $ pandocCompiler
+        >>= loadAndApplyTemplate "templates/paper.html" defaultContext
+        >>= saveSnapshot "papers"
+        >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        >>= relativizeUrls
 
   create ["papers/index.html"] $ do
      route idRoute
      compile $ do
-       p <- papers
-       r <- publicationRecord
-       let ctx = constField "papers" p <> constField "spark" r <> defaultContext
+       ps <- recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
+       r  <- publicationRecord
+       let ctx = constField "papers" (ps >>= itemBody) <>
+                 constField "spark" r <> defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html" ctx
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -55,27 +59,21 @@ main = hakyll $ do
           >>= loadAndApplyTemplate "templates/default.html" defaultContext
           >>= relativizeUrls
 
-  create ["feed.xml"] $ do
+  create ["papers/feed.xml"] $ do
      route idRoute
      compile $ do
        let ctx = defaultContext <> bodyField "description"
-       ps <- recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
-       renderAtom feedConfiguration ctx ps
+       ps <- fmap (take 10) . recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
+       renderAtom papersFeedConfiguration ctx ps
 
-feedConfiguration :: FeedConfiguration
-feedConfiguration = FeedConfiguration
-    { feedTitle       = "akc.is"
-    , feedDescription = "Recent papers (etc) by Anders Claesson"
+papersFeedConfiguration :: FeedConfiguration
+papersFeedConfiguration = FeedConfiguration
+    { feedTitle       = "akc.is/papers"
+    , feedDescription = "Papers and preprints by Anders Claesson (akc)"
     , feedAuthorName  = "Anders Claesson"
     , feedAuthorEmail = "akc@akc.is"
-    , feedRoot        = "http://akc.is/"
+    , feedRoot        = "http://akc.is"
     }
-
-papers :: Compiler String
-papers = do
-  tpl <- loadBody "templates/paper.html"
-  ps  <- recentFirst =<< loadAll "papers/*.md"
-  applyTemplateList tpl defaultContext ps
 
 -- Split string on commas
 split :: String -> [String]
