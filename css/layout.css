@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, h7 {color: #6E695C;}
 #logo {width:261px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
 #logo a {border: 0; background-color: #FEF9EC;}
 
-#me {float:left; border: 0; padding: 0 0 8px 0; vertical-align: bottom;}
+#me {float:left; border: 0; padding: 5px 0 8px 0; vertical-align: bottom;}
 .paper {margin: 0 0 15px 0; padding-left: 10px; border-left: 5px solid #DED9CC}
 .doi {font-size: 90%;}
 
