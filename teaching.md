@@ -1,3 +1,6 @@
+---
+title: akc.is/teaching
+---
 <div class="twelve columns">
 
 * [CS103 (Spring 2013)](https://personal.cis.strath.ac.uk/anders.claesson/cs103)

@@ -44,25 +44,29 @@ main = hakyll $ do
        ps <- recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
        r  <- publicationRecord
        let ctx = constField "papers" (ps >>= itemBody) <>
-                 constField "spark" r <> defaultContext
+                 constField "spark" r <>
+                 constField "title" "akc.is/papers" <>
+                 defaultContext
        makeItem ""
-          >>= loadAndApplyTemplate "templates/papers.html" ctx
-          >>= loadAndApplyTemplate "templates/default.html" defaultContext
+          >>= loadAndApplyTemplate "templates/papers.html"  ctx
+          >>= loadAndApplyTemplate "templates/default.html" ctx
           >>= relativizeUrls
 
   create ["coauthors/index.html"] $ do
      route idRoute
      compile $ do
-       let ctx = listField "coauthors" defaultContext coauthors
+       let ctx = listField "coauthors" defaultContext coauthors <>
+                 constField "title" "akc.is/coauthors" <>
+                 defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/coauthors.html" ctx
-          >>= loadAndApplyTemplate "templates/default.html" defaultContext
+          >>= loadAndApplyTemplate "templates/default.html"   ctx
           >>= relativizeUrls
 
   create ["papers/feed.xml"] $ do
      route idRoute
      compile $ do
-       let ctx = defaultContext <> bodyField "description"
+       let ctx = bodyField "description" <> defaultContext
        ps <- fmap (take 10) . recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
        renderAtom papersFeedConfiguration ctx ps
 
@@ -72,7 +76,7 @@ papersFeedConfiguration = FeedConfiguration
     , feedDescription = "Papers and preprints by Anders Claesson (akc)"
     , feedAuthorName  = "Anders Claesson"
     , feedAuthorEmail = "akc@akc.is"
-    , feedRoot        = "http://akc.is"
+    , feedRoot        = ""
     }
 
 -- Split string on commas

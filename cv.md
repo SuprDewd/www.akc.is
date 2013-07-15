@@ -1,3 +1,7 @@
+---
+title: akc.is/cv
+---
+
 <div class="twelve columns">
 
 # Curriculum vitae of Anders Claesson

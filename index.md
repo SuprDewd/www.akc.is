@@ -1,5 +1,5 @@
 ---
-title: Home
+title: akc.is
 ---
 <div class="row">
 <div class="three columns">
