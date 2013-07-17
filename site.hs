@@ -8,7 +8,8 @@ import qualified Data.Text as T
 import Hakyll
 
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
+
   match ("images/*.png" .||. "images/*.ico" .||. "fonts/*") $ do
     route idRoute
     compile copyFileCompiler
@@ -64,12 +65,27 @@ main = hakyll $ do
           >>= loadAndApplyTemplate "templates/default.html"   ctx
           >>= relativizeUrls
 
-  create ["papers/feed.xml"] $ do
+  create ["papers/feed.atom"] $ do
      route idRoute
      compile $ do
        let ctx = bodyField "description" <> defaultContext
        ps <- fmap (take 10) . recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
        renderAtom papersFeedConfiguration ctx ps
+
+
+config :: Configuration
+config = defaultConfiguration
+    { deployCommand = unlines
+      [ "rsync -av --delete _site/* ../akc.github.io"
+      , "cd ../akc.github.io"
+      , "git add -A"
+      , "msg=\"Deployed: \"`date`"
+      , "echo \">>> \"$msg"
+      , "git commit -m \"$msg\""
+      , "git push -f"
+      , "cd -"
+      ]
+    }
 
 papersFeedConfiguration :: FeedConfiguration
 papersFeedConfiguration = FeedConfiguration
