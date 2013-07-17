@@ -3,11 +3,13 @@ title: akc.is
 ---
 <div class="row">
 <div class="three columns">
-<img id="me"
-     src="images/me.png" 
-     alt="Anders Claesson" 
-     width="138px"
-     />
+<a href="images/akc-fpsac09.png">
+  <img id="me"
+       src="images/me.png"
+       alt="Anders Claesson"
+       width="138px"
+       />
+<a/>
 </div>
 <div class="nine columns">
   **Anders Claesson**, senior lecturer at
