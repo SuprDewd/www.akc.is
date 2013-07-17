@@ -32,6 +32,7 @@ main = hakyll $ do
      compile'
 
   match "papers/*.md" $ do
+     route $ setExtension "html"
      compile $ pandocCompiler
         >>= loadAndApplyTemplate "templates/paper.html" defaultContext
         >>= saveSnapshot "papers"
@@ -75,8 +76,8 @@ papersFeedConfiguration = FeedConfiguration
     { feedTitle       = "akc.is/papers"
     , feedDescription = "Papers and preprints by Anders Claesson (akc)"
     , feedAuthorName  = "Anders Claesson"
-    , feedAuthorEmail = "akc@akc.is"
-    , feedRoot        = ""
+    , feedAuthorEmail = "anders.claesson@strath.ac.uk"
+    , feedRoot        = "http://akc.is"
     }
 
 -- Split string on commas
