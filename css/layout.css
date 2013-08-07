@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, h7 {color: #6E695C;}
 #nav a:hover {text-decoration: none; background-color: #50a9ec; color: white;}
 
 
-#logo {width:261px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
+#logo {width:259px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
 #logo a {border: 0; background-color: #FEF9EC;}
 
 #me {float:left; border: 0; padding: 5px 0 8px 0; vertical-align: bottom;}
@@ -103,7 +103,7 @@ li {margin-left:0; margin-bottom:0.6ex;}
 
 #coauthors td {padding: 0 6px 3px 0; vertical-align: bottom; }
 #coauthors strong {color: #5E594C; font-family: 'Quantico Bold';}
-#coauthors td.spark {font-size: 9px; font-family: fixed, monospace; color: #AEA99C; vertical-align: top;}
+#coauthors td.spark {font-size: 11px; font-family: fixed, monospace; color: #AEA99C; vertical-align: middle;}
 #coauthors .years {font-size: 12px; font-family: 'Quantico Regular';}
 h1.spark {font-size: 25px; font-family: fixed, monospace; color: #DED9CC; margin-bottom: 13px;}
 
