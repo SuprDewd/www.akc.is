@@ -1,8 +1,7 @@
 ---
 title: akc.is
 ---
-<div class="row">
-<div class="three columns">
+<div class="three columns alpha">
 <a href="images/akc-fpsac09.png">
   <img id="me"
        src="images/me.png"
@@ -11,7 +10,7 @@ title: akc.is
        />
 <a/>
 </div>
-<div class="nine columns">
+<div class="nine columns omega">
   **Anders Claesson**, senior lecturer at
   [University of Strathclyde](http://www.strath.ac.uk/cis/),
   and a member of the
@@ -21,5 +20,4 @@ title: akc.is
   Office: Livingstone Tower 1426 \
   Department of Computer and Information Sciences, University of
   Strathclyde, 26 Richmond Street, Glasgow G1 1XH, UK
-</div>
 </div>

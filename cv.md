@@ -2,8 +2,6 @@
 title: akc.is/cv
 ---
 
-<div class="twelve columns">
-
 # Curriculum vitae of Anders Claesson
 
 ## Research interests
@@ -286,5 +284,3 @@ Theory (shared responibility); Coding Theory
 *  Teaching assistant in a variety of courses, such as: Calculus,
    Basic Algebra, Linear Algebra, Mathematical Logic, Absolute
    Geometry, and Discrete Mathematics
-
-</div>

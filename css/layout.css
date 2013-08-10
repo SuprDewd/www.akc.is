@@ -70,7 +70,7 @@
     font-weight: bold;
     font-style: normal;
 }
-body {background: #FEF9EC; padding-top: 25px; padding-bottom: 10px; line-height: 1.47;}
+body {background: white; padding-top: 25px; padding-bottom: 10px; line-height: 1.47;}
 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
@@ -78,14 +78,13 @@ a:hover {color: #222299;}
 #nav, h1, h2, h3, h4, h5, h6, h7 {font-family: 'Quantico Bold'; font-weight: bold;}
 h1, h2, h3, h4, h5, h6, h7 {color: #6E695C;}
 #nav ul {list-style: none; margin: 0; padding:0; }
-#nav li {height: 18px; margin: 1px 0 10px 0; display: inline; float: left;}
-#nav a {color: #FEF9EC; background-color: #62bbff; padding: 1px 6px; margin: 0 5px 0 0; font-size: 16px;}
+#nav li {height: 18px; margin: 0 0 11px 0; display: inline; float: left;}
+#nav a {color: white; background-color: #62bbff; padding: 1px 6px; margin: 0 5px 0 0; font-size: 16px;}
 #nav a:link {text-decoration: none;}
-#nav a:hover {text-decoration: none; background-color: #50a9ec; color: white;}
+#nav a:hover {text-decoration: none; background-color: #49a8eb; color: white;}
 
-
-#logo {width:259px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
-#logo a {border: 0; background-color: #FEF9EC;}
+#logo {width:258px; margin-top: -15px; margin-right: 11px; margin-bottom:4px;}
+#logo a {border: 0; margin: 0; padding:0; background-color: white;}
 
 #me {float:left; border: 0; padding: 5px 0 8px 0; vertical-align: bottom;}
 .paper {margin: 0 0 15px 0; padding-left: 10px; border-left: 5px solid #DED9CC}
