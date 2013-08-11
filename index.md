@@ -14,7 +14,7 @@ title: akc.is
   **Anders Claesson**, senior lecturer at
   University of Strathclyde
   and a member of the
-  [Strathclyde Combinatorics group](http://combinatorics.cis.strath.ac.uk/). <br style="margin-bottom:3px;">
+  [Strathclyde Combinatorics group](http://combinatorics.cis.strath.ac.uk/)<br style="margin-bottom:3px;">
   Tel: +44 (0)141 548 3617 \
   Email: [anders.claesson@strath.ac.uk](mailto:anders.claesson@strath.ac.uk) \
   Office: Livingstone Tower 1426 \
