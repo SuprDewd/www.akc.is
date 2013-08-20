@@ -112,6 +112,7 @@ getAuthorYear item = do
   y  <- getYear item
   return [ (a,y) | a<-as ]
 
+-- TODO: Clean up this definition
 coauthors :: Compiler [Item String]
 coauthors = do
   ps  <- loadAll "papers/*.md"
@@ -121,7 +122,7 @@ coauthors = do
   let zss' = tail
              $ map snd
              $ sort [ ((-length ys, -(maximum $ map read ys)), (a,ys)) | (a:_, ys) <- zss ]
-  largest <- mostPublished
+  let largest = fromIntegral . maximum $ map (maximum . yearDistribution . map read . snd) zss'
   forM  zss' $ \(a,ys) -> do
       let ys' = map read ys
       let years = concat $ intersperse ", " $ nub ys
