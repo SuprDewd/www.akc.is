@@ -64,12 +64,12 @@
     font-style: normal;
 }
 
-body {background: white; padding-top: 25px; padding-bottom: 10px; line-height: 1.46; font-family: 'Source Code Pro', fixed, monospace;}
+body {background: white; padding-top: 25px; padding-bottom: 10px; line-height: 1.46; font-family: sans;}
 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
 
-h1, h2, h3, h4, h5, h6, h7 {color: #444; font-family: 'Source Code Pro', fixed, monospace;}
+h1, h2, h3, h4, h5, h6, h7, #nav {color: #444; font-family: 'Source Code Pro', fixed, monospace;}
 #nav ul {list-style: none; margin: 0; padding:0; }
 #nav li {height: 16px; margin: 0 0 13px 0; display: inline; float: left;}
 #nav a {color: #555; background-color: #fafbfd; padding: 2px 6px 3px 6px; margin: 0 5px 0 0; font-size: 14px; border: 1px solid  #e5e5e5;}
