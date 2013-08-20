@@ -64,7 +64,7 @@
     font-style: normal;
 }
 
-body {background: white; padding-top: 25px; padding-bottom: 10px; line-height: 1.46; font-family: sans;}
+body {background: white; padding-top: 25px; padding-bottom: 10px; line-height: 1.5; font-size: 14px; font-family: sans serif;}
 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, h7, #nav {color: #444; font-family: 'Source Code Pro', f
 #logo a {border: 0; margin: 0; padding:0; background-color: white;}
 #logo a:hover {background-color: white;}
 
-#me {float:left; border: 0; padding: 5px 0 8px 0; vertical-align: bottom;}
+#me {float:left; border: 0; padding: 0 0 8px 0; vertical-align: bottom;}
 .paper {margin: 0 0 21px 0; padding-left: 10px; border-left: 5px solid #dfdfdf;}
 .doi {font-size: 88%;}
 h1.spark {font-size: 25px; color: #dfdfdf; margin-bottom: 15px;}
