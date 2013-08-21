@@ -215,7 +215,7 @@ statistics, permutation patterns and partially ordered sets
    Integer Sequences, Discrete Applied Mathematics, Pure Mathematics
    and Applications, The Australasian Journal of Combinatorics, The
    Journal of Combinatorial Mathematics and Combinatorial Computing.
-*  Referee work for Conferences: PP10--The eights conference on
+*  Referee work for Conferences: PP10--The eighth conference on
    Permutation Patterns, PP09--The seventh conference on
    Permutation Patterns, SOFSEM09---35th International
    Conference on Current Trends in Theory and Practice of Computer
