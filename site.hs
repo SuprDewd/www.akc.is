@@ -24,10 +24,6 @@ main = hakyllWith config $ do
      route $ setExtension "html"
      compile'
 
-  match "teaching.md" $ do
-     route $ constRoute "teaching/index.html"
-     compile'
-
   match "cv.md" $ do
      route $ constRoute "cv/index.html"
      compile'
