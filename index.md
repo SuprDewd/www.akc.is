@@ -8,14 +8,8 @@ title: akc.is
 
 ### Anders Claesson
 
-[combinatorialist](http://combinatorics.cis.strath.ac.uk/) and
+[Senior lecturer](http://www.cis.strath.ac.uk/cis/staff/index.php?uid=34726),
+[combinatorialist](/papers/) and
 [programming](https://github.com/akc) enthusiast
-
-### Contact
-
-----------  -------------------------------------------------------------------
-     work:  [anders.claesson@strath.ac.uk](mailto:anders.claesson@strath.ac.uk)
- personal:  [anders.claesson@gmail.com](mailto:anders.claesson@gmail.com)
-----------  -------------------------------------------------------------------
 
 </div>

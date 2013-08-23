@@ -28,6 +28,10 @@ main = hakyllWith config $ do
      route $ constRoute "cv/index.html"
      compile'
 
+  match "email.md" $ do
+     route $ constRoute "email/index.html"
+     compile'
+
   match "papers/*.md" $ do
      route $ setExtension "html"
      compile $ pandocCompiler
