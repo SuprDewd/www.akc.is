@@ -237,7 +237,8 @@ statistics, permutation patterns and partially ordered sets
 
 ## Doctoral students supervised
 
-*  Stuart Hannah, 2011--
+*  First supervisor for Stuart Hannah, 2011--
+*  Second supervisor for Jason Smith, 2012--
 
 ## Teaching experience at the University of Strathclyde
 
@@ -266,7 +267,7 @@ Theory (shared responibility); Coding Theory
 
 ### Extracurricular
 
-*  Trained the icelandic math olympiad team in 2007 and 2009
+*  Trained the Icelandic math olympiad team in 2007 and 2009
 *  Referee for The Baltic Way mathematical contest, 2010
 
 ## Teaching experience at University of Kalmar
