@@ -1,5 +1,6 @@
 ---
 title: akc.is/cv
+id: cv
 ---
 
 # Curriculum vitae of Anders Claesson

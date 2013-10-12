@@ -1,5 +1,6 @@
 ---
 title: akc.is
+id: index
 ---
 <div class="three columns alpha">
 <a href="images/akc-fpsac09.png"><img id="me" src="images/me.png" alt="Anders Claesson"/></a>

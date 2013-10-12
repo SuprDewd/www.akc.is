@@ -1,5 +1,6 @@
 ---
 title: akc.is/email
+id: email
 ---
 
 <div class="five columns alpha">

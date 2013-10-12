@@ -48,6 +48,7 @@ main = hakyllWith config $ do
        let ctx = constField "papers" (ps >>= itemBody) <>
                  constField "spark" r <>
                  constField "title" "akc.is/papers" <>
+                 constField "id" "papers" <>
                  defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/papers.html"  ctx
@@ -59,6 +60,7 @@ main = hakyllWith config $ do
      compile $ do
        let ctx = listField "coauthors" defaultContext coauthors <>
                  constField "title" "akc.is/coauthors" <>
+                 constField "id" "coauthors" <>
                  defaultContext
        makeItem ""
           >>= loadAndApplyTemplate "templates/coauthors.html" ctx

@@ -75,8 +75,15 @@ h1, h2, h3, h4, h5, h6, h7, #nav {color: black; font-family: 'Source Code Pro', 
 #nav li {height: 18px; margin: 0 0 14px 0; display: inline; float: left;}
 #nav a {color: #222; background-color: white; padding: 2px 8px 4px 8px; margin: 0 4px 0 0; font-size: 14px; border: 2px solid #bbb;}
 #nav a:link {text-decoration: none;}
-#nav a:hover {text-decoration: none; background-color: #444; color: white;}
 #nav a:visited {text-decoration: none;}
+#nav a:hover,
+body#papers a#navpapers,
+body#coauthors a#navcoauthors,
+body#cv a#navcv,
+body#email a#navemail,
+body#index a#navindex {text-decoration: none; background-color: #444; color: white;}
+
+a#navindex {text-decoration: none; background-color: #d0d0d0; color: #333;}
 
 #me {float:left; border: 0; padding: 0 0 18px 0; vertical-align: bottom;}
 .paper {margin: 0 0 21px 0; padding-left: 10px; border-left: 5px solid #dfdfdf;}
