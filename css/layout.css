@@ -76,11 +76,19 @@ h1, h2, h3, h4, h5, h6, h7, #nav {color: black; font-family: 'Source Code Pro', 
 #nav a {color: #222; background-color: white; padding: 2px 8px 4px 8px; margin: 0 4px 0 0; font-size: 14px; border: 2px solid #bbb;}
 #nav a:link {text-decoration: none;}
 #nav a:visited {text-decoration: none;}
-#nav a:hover,
-body#papers a#navpapers,
+
+#nav a#navpapers:hover,
+#nav a#navcoauthors:hover,
+#nav a#navcv:hover,
+#nav a#navemail:hover,
+body#papers    #nav a#navindex:hover,
+body#coauthors #nav a#navindex:hover,
+body#cv        #nav a#navindex:hover,
+body#email     #nav a#navindex:hover,
+body#papers    a#navpapers,
 body#coauthors a#navcoauthors,
-body#cv a#navcv,
-body#email a#navemail {text-decoration: none; background-color: #444; color: white;}
+body#cv        a#navcv,
+body#email     a#navemail {text-decoration: none; background-color: #444; color: white;}
 
 a#navindex {text-decoration: none; background-color: #d9d9d9; color: #222; padding-left:10px; padding-right:13px; }
 
