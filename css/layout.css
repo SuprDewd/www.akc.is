@@ -81,6 +81,8 @@ h1, h2, h3, h4, h5, h6, h7, #nav {color: black; font-family: 'Source Code Pro', 
 #nav a#navcoauthors:hover,
 #nav a#navcv:hover,
 #nav a#navemail:hover,
+#nav a#navgithub:hover,
+#nav a#navfeed:hover,
 body#papers    #nav a#navindex:hover,
 body#coauthors #nav a#navindex:hover,
 body#cv        #nav a#navindex:hover,
@@ -104,8 +106,8 @@ h4 { font-size: 15px; line-height: 19px; }
 h5 { font-size: 14px; line-height: 18px; }
 h6 { font-size: 14px; line-height: 17px; }
 
-ol, ul {list-style: circle outside; margin-left:2.5em; padding-left:0px; }
-li {margin-left:0; margin-bottom:0.7ex;}
+ol, ul {list-style: circle outside; margin-left:32px; padding-left:0px; }
+li {margin-left:0; margin-bottom:5px;}
 td {padding-right: 6px;}
 
 #coauthors td {padding: 0 6px 3px 0; vertical-align: bottom; }
