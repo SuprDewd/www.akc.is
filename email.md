@@ -68,5 +68,5 @@ hedJhe6cEbWSg7Y=
 =l0if
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-[anders-claesson.asc](anders-claesson.asc)
+[anders.claesson@gmail.asc](anders.claesson@gmail.asc)
 </div>
