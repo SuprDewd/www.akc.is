@@ -8,13 +8,17 @@ id: email
 
 [anders.claesson@strath.ac.uk](mailto:anders.claesson@strath.ac.uk)
 
-</div>
-<div class="five columns omega">
 ### Personal
 
 [anders.claesson@gmail.com](mailto:anders.claesson@gmail.com)
 
+</div>
+<div class="five columns omega">
+
+### PGP Key
+
 <pre class="pgp">
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.20 (GNU/Linux)
 
@@ -67,6 +71,7 @@ j/am8z0jYae6I/ykTI9Fb0K6xtMCYq1S2kDbcOgpsLMtGe5SXtKicc0sFMuAP1rS
 hedJhe6cEbWSg7Y=
 =l0if
 -----END PGP PUBLIC KEY BLOCK-----
+
 </pre>
-[anders.claesson@gmail.asc](anders.claesson@gmail.asc)
+[key.asc](key.asc)
 </div>
