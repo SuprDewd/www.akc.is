@@ -7,10 +7,14 @@ import Data.List
 import qualified Data.Text as T
 import Hakyll
 
+thisYear = 2014
+
 main :: IO ()
 main = hakyllWith config $ do
 
-  match ("email/key.asc" .||. "images/*.png" .||. "images/*.svg" .||. "images/*.ico" .||. "fonts/*" .||. "downloads/*") $ do
+  match ("email/key.asc" .||. "images/*.png" .||.
+         "images/*.svg"  .||. "images/*.ico" .||.
+         "fonts/*"       .||. "downloads/*"       ) $ do
     route idRoute
     compile copyFileCompiler
 
@@ -114,51 +118,53 @@ getAuthorYear item = do
   y  <- getYear item
   return [ (a,y) | a<-as ]
 
--- TODO: Clean up this definition
 coauthors :: Compiler [Item String]
 coauthors = do
-  ps  <- loadAll "papers/*.md"
-  xs  <- mapM getAuthorYear ps
+  ps <- loadAll "papers/*.md"
   tpl <- loadBody "templates/coauthor.html"
-  let zss = map unzip $ groupBy ((==) `on` fst) $ sort $ concat xs
-  let zss' = tail
-             $ map snd
-             $ sort [ ((-length ys, -(maximum $ map read ys)), (a,ys)) | (a:_, ys) <- zss ]
-  let largest = fromIntegral . maximum $ map (maximum . yearDistribution . map read . snd) zss'
-  forM  zss' $ \(a,ys) -> do
-      let ys' = map read ys
-      let years = concat $ intersperse ", " $ nub ys
-      let ctx = constField "coauthor" a  <> 
-                constField "years" years <>
-                constField "spark" (spark largest (map fromIntegral $ tail $ yearDistribution ys'))
+  let f = map unzip . groupBy ((==) `on` fst) . sort . concat
+  xs <- f `liftM` mapM getAuthorYear ps
+  let rankedMax ys = (-length ys, -maximum (map read ys))
+  let ays = tail . map snd $ sort [ (rankedMax ys, (a,ys)) | (a:_, ys) <- xs ]
+  let largest = maximum $ ays >>= yearDistribution' . snd
+  forM ays $ \(a,ys) -> do
+      let years = intercalate ", " $ nub ys
+      let sprk  = spark largest $ tail (yearDistribution' ys)
+      let ctx   = constField "coauthor" a  <>
+                  constField "years" years <>
+                  constField "spark" sprk
       makeItem "" >>= applyTemplate tpl ctx
 
 mostPublished :: Compiler Double
 mostPublished = do
   ps <- loadAll "papers/*.md"
   ys <- mapM getYear ps
-  return . fromIntegral . maximum . yearDistribution $ map read ys
+  return . maximum $ yearDistribution' ys
 
 publicationRecord :: Compiler String
 publicationRecord = do
   ps <- loadAll "papers/*.md"
   ys <- mapM getYear ps
   m  <- mostPublished
-  return . spark m . map fromIntegral . yearDistribution $ map read ys
+  return . spark m $ yearDistribution' ys
 
 compile' =
    compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
 
--- Stolen from https://github.com/Mgccl/mgccl-haskell/blob/master/random/spark.hs
+-- This function is due to Chao Xu. See
+-- https://github.com/Mgccl/mgccl-haskell/blob/master/random/spark.hs
 spark :: Double -> [Double] -> String
 spark largest list = map ("▁▂▃▄▅▆▇" !!) xs
     where zs = map (flip (-) (minimum list)) list
           xs = map (round . (* 6) . (/ largest)) zs
 
-runLengths :: Eq a => [a] -> [Int]
-runLengths = map length . group
+runLengths :: (Eq a, Num b) => [a] -> [b]
+runLengths = map (fromIntegral . length) . group
 
-yearDistribution :: [Int] -> [Int]
-yearDistribution ys = map (+(-1)) . runLengths . sort $ ys ++ [2001..2013]
+yearDistribution :: (Num b) => [Int] -> [b]
+yearDistribution = map (+(-1)) . runLengths . sort . ([2001..thisYear] ++ )
+
+yearDistribution' :: (Num b) => [String] -> [b]
+yearDistribution' = yearDistribution . map read
