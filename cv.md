@@ -157,6 +157,7 @@ statistics, permutation patterns and partially ordered sets
 
 ## Presentations
 
+*  Colloquium at The Open University, Milton Keynes, February 2014
 *  NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden), June 2013
 *  Invited talk in a Special Session on Permutations at the AMS-MAA
    Joint Mathematics Meeting in San Diego.  The session was organized
