@@ -13,13 +13,15 @@ statistics, permutation patterns and partially ordered sets
 ## Employment
 
 *  Senior Lecturer, [University of Strathclyde](http://www.strath.ac.uk/), From 2011
-*  Associate Professor, Reykjavík University, 2009--2010
-*  Assistant Professor, Reykjavík University, 2006--2009
-*  Senior lecturer at the University of Kalmar, 2005--2006
-*  Postdoc at Institut Mittag-Leffler 
+*  Associate Professor, [Reykjavík University](http://www.ru.is/), 2009--2010
+*  Assistant Professor, [Reykjavík University](http://www.ru.is/), 2006--2009
+*  Lecturer, [University of Kalmar](http://lnu.se/)
+   (Linnéuniversitetet), 2005--2006
+*  Postdoc at [Institut Mittag-Leffler](http://www.mittag-leffler.se/)
    (The Royal Swedish Academy of Sciences), Spring 2005
-*  Senior lecturer at the University of Kalmar, Autumn 2004
-*  Graduate student at Chalmers University of Technology, 1998--2004
+*  Lecturer, [University of Kalmar](http://lnu.se/)
+   (Linnéuniversitetet), Autumn 2004
+*  Graduate student, [Chalmers University of Technology](http://www.chalmers.se/), 1998--2004
 
 ## Education
 
