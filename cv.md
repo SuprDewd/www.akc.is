@@ -66,6 +66,9 @@ statistics, permutation patterns and partially ordered sets
 1. Decomposing labeled interval orders as pairs of permutations, with
    Stuart A. Hannah, *arXiv:1405.2441*
 
+1. Isomorphisms between pattern classes, with
+   Michael Albert and M. D. Atkinson, *arXiv:1308.3262*
+
 1. An involution on bicubic maps and β(0,1)-trees, with Sergey Kitaev
    and Anna de Mier, *arXiv:1210.3219*
 
