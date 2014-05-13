@@ -63,6 +63,9 @@ statistics, permutation patterns and partially ordered sets
 
 ## Preprints 
 
+1. Decomposing labeled interval orders as pairs of permutations, with
+   Stuart A. Hannah, *arXiv:1405.2441*
+
 1. An involution on bicubic maps and β(0,1)-trees, with Sergey Kitaev
    and Anna de Mier, *arXiv:1210.3219*
 
@@ -200,8 +203,10 @@ statistics, permutation patterns and partially ordered sets
 
 ## Research Grants
 
+*  Co-recipient of a project grant: Finding structure in sets of
+   permutations, Iceland Research Fund, 2014--2016
 *  Co-recipient of a Grant for Excellence: Combinatorics on Words and
-   Permutations, Iceland Research Fund 2009--2011
+   Permutations, Iceland Research Fund, 2009--2011
 *  Postdoc grant (as a part of a Grant of Excellence), Iceland
    Research Fund, 2006--2008
 
@@ -211,7 +216,8 @@ statistics, permutation patterns and partially ordered sets
    [Pure Mathematics and Applications](http://homelinux.capitano.unisi.it/~puma/),
    special issue devoted to
    [Permutation Patterns 2012](http://combinatorics.cis.strath.ac.uk/pp2012/)
-*  Referee work for Journals: Journal of Combinatorial Theory Series
+*  Referee work for Journals:
+   Journal of Combinatorial Theory Series
    A, Advances of Applied Mathematics, Transactions of the American
    Mathematical Society, European Journal of Combinatorics, Electronic
    Journal of Combinatorics, Discrete Mathematics, Séminaire
@@ -219,7 +225,9 @@ statistics, permutation patterns and partially ordered sets
    Integer Sequences, Discrete Applied Mathematics, Pure Mathematics
    and Applications, The Australasian Journal of Combinatorics, The
    Journal of Combinatorial Mathematics and Combinatorial Computing.
-*  Referee work for Conferences: PP10--The eighth conference on
+*  Referee work for Conferences:
+   PP13--The eleventh conference on
+   Permutation Patterns, PP10--The eighth conference on
    Permutation Patterns, PP09--The seventh conference on
    Permutation Patterns, SOFSEM09---35th International
    Conference on Current Trends in Theory and Practice of Computer
