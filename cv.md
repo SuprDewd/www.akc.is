@@ -252,8 +252,10 @@ statistics, permutation patterns and partially ordered sets
 
 ## Doctoral students supervised
 
-*  First supervisor for Stuart Hannah, 2011--
-*  Second supervisor for Jason Smith, 2012--
+*  First supervisor for
+   [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/), 2011--
+*  Second supervisor for
+   [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), 2012--
 
 ## Teaching experience at the University of Strathclyde
 
