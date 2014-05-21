@@ -37,6 +37,12 @@ statistics, permutation patterns and partially ordered sets
    1994--1998. (Including one year of studies at University of
    Strathclyde, Glasgow)
 
+# Pedagogical education
+
+*  Completed the course "Supervising post graduate research" at Strathclyde
+   University (2012). This course qualifies me as first advisor for doctoral
+   students in the UK.
+
 <!--
 ### Summer Schools attended
 
@@ -65,18 +71,15 @@ statistics, permutation patterns and partially ordered sets
 
 1. Decomposing labeled interval orders as pairs of permutations, with
    Stuart A. Hannah, *arXiv:1405.2441*
-
 1. Isomorphisms between pattern classes, with
    Michael Albert and M. D. Atkinson, *arXiv:1308.3262*
-
 1. An involution on bicubic maps and β(0,1)-trees, with Sergey Kitaev
    and Anna de Mier, *arXiv:1210.3219*
 
 ## Publications in Journals
 
 1. An involution on β(1,0)-trees, with Sergey Kitaev and Einar
-   Steingrímsson, accepted for publication in *Advances in Applied
-   Mathematics*, 2012
+   Steingrímsson, *Advances in Applied Mathematics* 51 (2013) 276--284
 1. Upper bounds for the Stanley-Wilf limit of 1324 and other layered
    patterns, with Vít Jelínek and Einar Steingrímsson,
    *Journal of Combinatorial Theory Series A* 119(8) (2012) 1680–1691
@@ -248,7 +251,9 @@ statistics, permutation patterns and partially ordered sets
 *  Organizer of the combinatorics seminar at Reykjavik University, 2006--2010
 *  Member of the hiring committee (RU) for postdoc positions in 2008
 *  Member of the hiring committee (RU) for postdoc positions in 2009
-
+*  Member of the International Student Recruitment Group at Strathclyde
+   since 2012
+*  PhD selector (admissions officer) at CIS Strathclyde since July 2011
 
 ## Doctoral students supervised
 
@@ -257,11 +262,26 @@ statistics, permutation patterns and partially ordered sets
 *  Second supervisor for
    [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), 2012--
 
+# Degree project works.
+
+The following are honours degree projects (4th year) that I have
+supervised at Strathclyde. Each project is worth 30 credits.
+
+*  Kit Yiu Raymond Leung, "A sorting game played on a square", 2013
+*  Mark Graham, "A distributed password manager", 2013
+*  Ricky Dalziel, "A sorting game played on a square", 2012
+*  Stuart Paton, "Catalan structures and bijections", 2012
+*  Ross Herbertson, "Sorting with primitive devices", 2012
+*  Michael Wilson, "Guess a Formula from a Sequence of Numbers", 2011
+*  Ramadan Khadeir, "Binary Strings Avoiding a Given Substring as a Factor", 2011
+*  Jordan Haldane, "A Web Program for the 8-Tile Game", 2011
+*  Kenneth Chan, "Guess a Formula from a Sequence of Numbers", 2011
+
 ## Teaching experience at the University of Strathclyde
 
-*  2013: CS103, CS203, CS316
-*  2012: CS103, CS203, CS316
-*  2011: CS101, CS203, CS316
+*  2013--2014: CS103, CS316, CS411
+*  2012--2013: CS103, CS203, CS316
+*  2011--2012: CS101, CS203, CS316
 
 ## Teaching experience at Reykjavik University
 
