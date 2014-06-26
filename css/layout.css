@@ -94,7 +94,7 @@ body#email     a#navemail {text-decoration: none; background-color: #444; color:
 a#navindex {text-decoration: none; background-color: #d9d9d9; color: #222; padding-left:10px; padding-right:13px; }
 
 #me {float:left; border: 0; padding: 0 0 18px 0; vertical-align: bottom;}
-.paper {margin: 0 0 21px 0; padding-left: 10px; border-left: 5px solid #dfdfdf;}
+.item {margin: 0 0 21px 0; padding-left: 10px; border-left: 5px solid #dfdfdf;}
 .doi {font-size: 88%;}
 h1.spark {font-size: 25px; color: #dfdfdf; margin-bottom: 15px;}
 
@@ -108,6 +108,8 @@ h6 { font-size: 14px; line-height: 17px; }
 ol, ul {list-style: circle outside; margin-left:32px; padding-left:0px; }
 li {margin-left:0; margin-bottom:5px;}
 td {padding-right: 6px;}
+
+dt {border-top: 2px solid #bbb;}
 
 #coauthors td {padding: 0 6px 3px 0; vertical-align: bottom; }
 #coauthors td.spark {font-size: 12px; color: #d2d2d2; vertical-align: middle; font-family: 'Source Code Pro', fixed, monospace; padding-right: 10px;}
