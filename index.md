@@ -11,6 +11,6 @@ id: index
 
 [Senior lecturer](http://www.cis.strath.ac.uk/cis/staff/index.php?uid=34726),
 [combinatorialist](/papers/) and
-[programming](https://github.com/akc) enthusiast
+[programming](/code/) enthusiast
 
 </div>

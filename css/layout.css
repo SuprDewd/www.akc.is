@@ -78,17 +78,16 @@ h1, h2, h3, h4, h5, h6, h7, #nav, .fingerprint {color: black; font-family: 'Sour
 #nav a:visited {text-decoration: none;}
 
 #nav a#navpapers:hover,
-#nav a#navcoauthors:hover,
+#nav a#navcode:hover,
 #nav a#navcv:hover,
 #nav a#navemail:hover,
-#nav a#navgithub:hover,
 #nav a#navfeed:hover,
 body#papers    #nav a#navindex:hover,
-body#coauthors #nav a#navindex:hover,
+body#code      #nav a#navindex:hover,
 body#cv        #nav a#navindex:hover,
 body#email     #nav a#navindex:hover,
 body#papers    a#navpapers,
-body#coauthors a#navcoauthors,
+body#code      a#navcode,
 body#cv        a#navcv,
 body#email     a#navemail {text-decoration: none; background-color: #444; color: white;}
 
