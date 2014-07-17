@@ -55,7 +55,7 @@ main = hakyllWith config $ do
        r  <- publicationRecord
        let ctx = constField "papers" (ps >>= itemBody) <>
                  constField "spark" r <>
-                 constField "title" "akc.is/papers - anders claesson's papers" <>
+                 constField "title" "akc.is/papers - Anders Claesson's papers" <>
                  constField "id" "papers" <>
                  defaultContext
        makeItem ""
@@ -67,7 +67,7 @@ main = hakyllWith config $ do
      route idRoute
      compile $ do
        let ctx = listField "coauthors" defaultContext coauthors <>
-                 constField "title" "akc.is/coauthors - anders claesson's coauthors" <>
+                 constField "title" "akc.is/coauthors - Anders Claesson's coauthors" <>
                  constField "id" "coauthors" <>
                  defaultContext
        makeItem ""

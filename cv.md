@@ -1,5 +1,5 @@
 ---
-title: akc.is/cv - anders claesson's cv
+title: akc.is/cv - Anders Claesson's CV
 id: cv
 ---
 

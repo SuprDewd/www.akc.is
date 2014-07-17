@@ -1,5 +1,5 @@
 ---
-title: akc.is/email - anders claesson's email addresses
+title: akc.is/email - Anders Claesson's email addresses
 id: email
 ---
 
