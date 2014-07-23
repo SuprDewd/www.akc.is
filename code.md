@@ -20,4 +20,4 @@ I'm the author and maintainer of the following Haskell packages:
   **spe** -- Combinatorial species lite
 </div>
 
-All my public code can be found on GitHub: <https://github.com/akc/>.
+All my public code can be found on GitHub: <https://github.com/akc/>
