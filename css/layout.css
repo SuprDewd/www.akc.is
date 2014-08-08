@@ -69,7 +69,8 @@ body {background: white; color: black; padding-top: 25px; padding-bottom: 10px; 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
 
-h1, h2, h3, h4, h5, h6, h7, #nav, .fingerprint {color: black; font-family: 'Source Code Pro', fixed, monospace;}
+h1, h2, h3, h4, h5, h6, h7 {font-family: sans serif; font-weight:bold; color: #333;}
+#nav, .fingerprint {color: black; font-family: 'Source Code Pro', fixed, monospace;}
 #nav {margin-bottom: 20px;}
 #nav ul {list-style: none; margin: 0; padding:0; }
 #nav li {height: 18px; margin: 0 0 14px 0; display: inline; float: left;}
@@ -98,10 +99,10 @@ a#navindex {text-decoration: none; background-color: #d9d9d9; color: #222; paddi
 .doi {font-size: 88%;}
 .spark {color: #dedede;}
 
-h1 { font-size: 19px; line-height: 27px; margin-bottom: 11px; }
-h2 { font-size: 17px; line-height: 24px; margin-bottom: 8px; }
-h3 { font-size: 16px; line-height: 20px; margin-bottom: 4px; }
-h4 { font-size: 15px; line-height: 19px; }
+h1 { font-size: 19px; line-height: 27px; margin-bottom: 13px; }
+h2 { font-size: 16px; line-height: 24px; margin-bottom: 10px; }
+h3 { font-size: 15px; line-height: 20px; margin-bottom: 6px; }
+h4 { font-size: 15px; line-height: 19px; margin-bottom: 4px;}
 h5 { font-size: 14px; line-height: 18px; }
 h6 { font-size: 14px; line-height: 17px; }
 
@@ -116,3 +117,5 @@ dt {border-top: 2px solid #bbb;}
 #coauthors .years {font-size: 12px;}
 
 .fingerprint {font-size: 15px; color: #222; }
+
+.cv {font-size: 95%; font-family: sans serif;}

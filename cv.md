@@ -3,6 +3,8 @@ title: akc.is/cv - Anders Claesson's CV
 id: cv
 ---
 
+<div class="cv">
+
 # Curriculum vitae of Anders Claesson
 
 ## Research interests
@@ -37,7 +39,7 @@ statistics, permutation patterns and partially ordered sets
    1994--1998. (Including one year of studies at University of
    Strathclyde, Glasgow)
 
-# Pedagogical education
+## Pedagogical education
 
 *  Completed the course "Supervising post graduate research" at Strathclyde
    University (2012). This course qualifies me as first advisor for doctoral
@@ -262,7 +264,7 @@ statistics, permutation patterns and partially ordered sets
 *  Second supervisor for
    [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), 2012--
 
-# Degree project works.
+## Degree project works.
 
 The following are honours degree projects (4th year) that I have
 supervised at Strathclyde. Each project is worth 30 credits.
@@ -322,3 +324,5 @@ Theory (shared responibility); Coding Theory
 *  Teaching assistant in a variety of courses, such as: Calculus,
    Basic Algebra, Linear Algebra, Mathematical Logic, Absolute
    Geometry, and Discrete Mathematics
+
+</div>
