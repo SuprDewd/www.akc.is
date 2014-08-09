@@ -7,7 +7,7 @@ id: index
 </div>
 <div class="seven columns omega">
 
-### Anders Claesson
+## Anders Claesson
 
 [Senior lecturer](http://www.cis.strath.ac.uk/cis/staff/index.php?uid=34726),
 [combinatorialist](/papers/) and
