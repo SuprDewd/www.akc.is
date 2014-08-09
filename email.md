@@ -17,7 +17,7 @@ id: email
 
 ### PGP Key
 
-[key.asc](key.asc)&nbsp;|&nbsp;[keybase.io/akc](https://keybase.io/akc)
+[key.asc](https://akc.github.io/email/key.asc)&nbsp;|&nbsp;[keybase.io/akc](https://keybase.io/akc)
 
 <pre class="fingerprint">
 94A7 C58A 4405 C916 4579
