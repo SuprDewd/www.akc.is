@@ -64,7 +64,7 @@
     font-style: normal;
 }
 
-body {background: white; color: black; padding-top: 25px; padding-bottom: 10px; line-height: 1.5; font-size: 14px; font-family: sans serif;}
+body {background: white; color: black; padding-top: 25px; padding-bottom: 10px; line-height: 1.4; font-size: 14px; font-family: sans serif;}
 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
@@ -106,8 +106,8 @@ h4 { font-size: 15px; line-height: 19px; margin-bottom: 4px;}
 h5 { font-size: 14px; line-height: 18px; }
 h6 { font-size: 14px; line-height: 17px; }
 
-ol, ul {list-style: circle outside; margin-left:32px; padding-left:0px; }
-li {margin-left:0; margin-bottom:5px;}
+ol, ul {margin-left:32px; padding-left:0px; }
+li {margin-left:0; margin-bottom:4px;}
 td {padding-right: 6px;}
 
 dt {border-top: 2px solid #bbb;}
