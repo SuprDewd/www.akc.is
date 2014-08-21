@@ -3,7 +3,9 @@ title: akc.is/cv - Anders Claesson's CV
 id: cv
 ---
 
-# CV of Anders Claesson
+<div class="cv">
+
+# Curriculum vitae of Anders Claesson
 
 ## Research interests
 
@@ -323,3 +325,4 @@ Theory (shared responibility); Coding Theory
    Basic Algebra, Linear Algebra, Mathematical Logic, Absolute
    Geometry, and Discrete Mathematics
 
+</div>
