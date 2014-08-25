@@ -19,5 +19,9 @@ I'm the author and maintainer of the following Haskell packages:
   [[GitHub](https://github.com/akc/spe)][[Hackage](http://hackage.haskell.org/package/spe)]  
   **spe** -- Combinatorial species lite
 </div>
+<div class="item">
+  [[GitHub](https://github.com/akc/opn)][[Hackage](http://hackage.haskell.org/package/opn)]  
+  **opn** -- Open files or URLs using associated programs
+</div>
 
 All my public code can be found on GitHub: <https://github.com/akc/>
