@@ -269,6 +269,10 @@ statistics, permutation patterns and partially ordered sets
 The following are honours degree projects (4th year) that I have
 supervised at Strathclyde. Each project is worth 30 credits.
 
+*  Wojciech Jesiotr, "Sorting by shifts on a torus", 2014
+*  Graeme Hutchinson, "A 'Read it later' program", 2014
+*  Scott McCullagh, "Password manager", 2014
+*  Connor Galligan, "talk 3000", 2014
 *  Kit Yiu Raymond Leung, "A sorting game played on a square", 2013
 *  Mark Graham, "A distributed password manager", 2013
 *  Ricky Dalziel, "A sorting game played on a square", 2012
