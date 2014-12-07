@@ -11,7 +11,7 @@ type Author = String
 type Year   = String
 type Spark  = String
 
-thisYear = "2014"
+thisYear = "2015"
 
 imagesEtc = foldr1 (.||.)
     [ "images/*.png"
@@ -142,7 +142,7 @@ coauthors = do
     tpl <- loadBody "templates/coauthor.html"
     let f = map unzip . groupBy ((==) `on` fst) . sort . concat
     xs <- f <$> mapM getAuthorYear ps
-    let rankedMax ys = (-length ys, -maximum (map read ys))
+    let rankedMax ys = (-length ys, sort (map ((*(-1)) . read) ys))
     let ays = tail . map snd $ sort [ (rankedMax ys, (a,ys)) | (a:_, ys) <- xs ]
     let largest = maximum $ ays >>= yearDistribution' . snd
     forM ays $ \(a,ys) -> do
