@@ -69,6 +69,10 @@ statistics, permutation patterns and partially ordered sets
 *  Visited Mireille Bousquet-Mélou at LaBRI, Université Bordeaux 1, 
    for one month in the spring of 2001
 
+## Journal Publications and Preprints
+   See [http://akc.is/papers/](http://akc.is/papers/)
+
+<!--
 ## Preprints 
 
 1. Decomposing labeled interval orders as pairs of permutations, with
@@ -135,6 +139,7 @@ statistics, permutation patterns and partially ordered sets
    Mathematics* 258 (2002), 275--287
 1. Generalized Pattern Avoidance, *European Journal of Combinatorics*
    22 (2001), 961--971
+-->
 
 ## Publications in Conference proceedings
 
@@ -168,7 +173,7 @@ statistics, permutation patterns and partially ordered sets
    Arizona State University, May 2001
 
 
-## Presentations
+## Selected Presentations
 
 *  Colloquium at The Open University, Milton Keynes, February 2014
 *  NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden), June 2013
@@ -285,9 +290,15 @@ supervised at Strathclyde. Each project is worth 30 credits.
 
 ## Teaching experience at the University of Strathclyde
 
+*  2014--2015: CS103, CS316, CS411
 *  2013--2014: CS103, CS316, CS411
 *  2012--2013: CS103, CS203, CS316
 *  2011--2012: CS101, CS203, CS316
+
+*  CS103: Machines, Languages and Computation
+*  CS203: Topics in Computing 2
+*  CS316: Functional Programming
+*  CS411: Theory of Computation
 
 ## Teaching experience at Reykjavik University
 
