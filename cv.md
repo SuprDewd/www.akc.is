@@ -216,15 +216,20 @@ statistics, permutation patterns and partially ordered sets
 
 ## Research Grants
 
-*  Co-recipient of a project grant: Finding structure in sets of
-   permutations, Iceland Research Fund, 2014--2016. Grant number
-   [141761051](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=141761051).
-*  Co-recipient of a Grant for Excellence: Combinatorics on Words and
-   Permutations, Iceland Research Fund, 2009--2011. Grant numbers
-   [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)
-*  Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
-   Iceland Research Fund, 2006--2008. Grant numbers
-   [60005011, 60005012, 60005013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=60005011)
+1. Co-recipient of a project grant: Finding structure in sets of
+   permutations, Iceland Research Fund, 2014--2016.  
+   Grant reference: [141761051](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=141761051)  
+   Amount: 9,790,000 ISK
+2. University of Strathclyde Faculty of Science Starter Grant. 2011--2012  
+   Amount: 11,000 GBP
+3. Co-recipient of a Grant for Excellence: Combinatorics on Words and
+   Permutations, Iceland Research Fund, 2009--2011.  
+   Grant reference [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)  
+   Amount: 67,609,000 ISK
+4. Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
+   Iceland Research Fund, 2006--2008.  
+   Grant reference: [60005011, 60005012, 60005013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=60005011)  
+   Amount: 24,886,000 ISK
 
 ##  Other research-related activities and administration
 
@@ -298,10 +303,13 @@ supervised at Strathclyde. Each project is worth 30 credits.
 *  2012--2013: CS103, CS203, CS316
 *  2011--2012: CS101, CS203, CS316
 
-*  CS103: Machines, Languages and Computation
-*  CS203: Topics in Computing 2
-*  CS316: Functional Programming
-*  CS411: Theory of Computation
+Syllabi:
+
+*  [CS101: Topics in Computing 1](http://www.strath.ac.uk/cis/localteaching/localug/cs101/)
+*  [CS103: Machines, Languages and Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs103/)
+*  [CS203: Topics in Computing 2](http://www.strath.ac.uk/cis/localteaching/localug/cs203/)
+*  [CS316: Functional Programming](http://www.strath.ac.uk/cis/localteaching/localug/cs316/)
+*  [CS411: Theory of Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs411/)
 
 ## Teaching experience at Reykjavik University
 
