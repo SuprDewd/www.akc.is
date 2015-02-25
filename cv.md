@@ -217,11 +217,14 @@ statistics, permutation patterns and partially ordered sets
 ## Research Grants
 
 *  Co-recipient of a project grant: Finding structure in sets of
-   permutations, Iceland Research Fund, 2014--2016
+   permutations, Iceland Research Fund, 2014--2016. Grant number
+   [141761051](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=141761051).
 *  Co-recipient of a Grant for Excellence: Combinatorics on Words and
-   Permutations, Iceland Research Fund, 2009--2011
-*  Postdoc grant (as a part of a Grant of Excellence), Iceland
-   Research Fund, 2006--2008
+   Permutations, Iceland Research Fund, 2009--2011. Grant numbers
+   [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)
+*  Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
+   Iceland Research Fund, 2006--2008. Grant numbers
+   [60005011, 60005012, 60005013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=60005011)
 
 ##  Other research-related activities and administration
 
