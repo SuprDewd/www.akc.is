@@ -224,7 +224,7 @@ statistics, permutation patterns and partially ordered sets
    Amount: 11,000 GBP
 3. Co-recipient of a Grant for Excellence: Combinatorics on Words and
    Permutations, Iceland Research Fund, 2009--2011.  
-   Grant reference [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)  
+   Grant reference: [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)  
    Amount: 67,609,000 ISK
 4. Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
    Iceland Research Fund, 2006--2008.  
