@@ -41,9 +41,9 @@ statistics, permutation patterns and partially ordered sets
 
 ## Pedagogical education
 
-*  Completed the course "Supervising post graduate research" at Strathclyde
-   University (2012). This course qualifies me as first advisor for doctoral
-   students in the UK.
+Completed the course "Supervising post graduate research" at Strathclyde
+University (2012). This course qualifies me as first advisor for
+doctoral students in the UK.
 
 <!--
 ### Summer Schools attended
@@ -58,16 +58,15 @@ statistics, permutation patterns and partially ordered sets
 
 ## Research visits
 
-*  Visited Michael Albert at University of Otago (Dunedin, New
-   Zealand) for one and a half months in the winter of 2012
-*  Visited Michael Albert at University of Otago (Dunedin, New
-   Zealand) for three months in the winter of 2010
-*  Visited Petter Brändén at KTH (Royal Institute of Technology,
-   Stockholm) for two weeks in the spring of 2009
-*  Visited David Wagner at the University of Waterloo for 
-   four months in the spring/summer of 2002
-*  Visited Mireille Bousquet-Mélou at LaBRI, Université Bordeaux 1, 
-   for one month in the spring of 2001
+Visited [Michael Albert](Michael Albert) at University of Otago
+(Dunedin, New Zealand) for one and a half months in the winter of 2012
+and for three months in the winter of 2010; visited [Petter
+Brändén](https://people.kth.se/~pbranden/) at KTH (Royal Institute of
+Technology, Stockholm) for two weeks in the spring of 2009; visited
+[David Wagner](http://www.math.uwaterloo.ca/~dgwagner/) at the
+University of Waterloo for four months in the spring/summer of 2002;
+visited [Mireille Bousquet-Mélou](http://www.labri.fr/perso/bousquet/)
+at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Journal Publications and Preprints
    See [http://akc.is/papers/](http://akc.is/papers/)
@@ -272,10 +271,9 @@ statistics, permutation patterns and partially ordered sets
 
 ## Doctoral students supervised
 
-*  First supervisor for
-   [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/), 2011--
-*  Second supervisor for
-   [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), 2012--
+First supervisor for
+[Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/) (2011--) and
+second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/) (2012--).
 
 ## Degree project works.
 
@@ -298,57 +296,43 @@ supervised at Strathclyde. Each project is worth 30 credits.
 
 ## Teaching experience at the University of Strathclyde
 
-*  2014--2015: CS103, CS316, CS411
-*  2013--2014: CS103, CS316, CS411
-*  2012--2013: CS103, CS203, CS316
-*  2011--2012: CS101, CS203, CS316
-
-Syllabi:
-
-*  [CS101: Topics in Computing 1](http://www.strath.ac.uk/cis/localteaching/localug/cs101/)
-*  [CS103: Machines, Languages and Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs103/)
-*  [CS203: Topics in Computing 2](http://www.strath.ac.uk/cis/localteaching/localug/cs203/)
-*  [CS316: Functional Programming](http://www.strath.ac.uk/cis/localteaching/localug/cs316/)
-*  [CS411: Theory of Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs411/)
+Lecturer in, and responsible for, the following courses:
+[CS101--Topics in Computing 1](http://www.strath.ac.uk/cis/localteaching/localug/cs101/) (2011--2012);
+[CS103--Machines, Languages and Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs103/) (2012--2015);
+[CS203--Topics in Computing 2](http://www.strath.ac.uk/cis/localteaching/localug/cs203/) (2011--2013);
+[CS316--Functional Programming](http://www.strath.ac.uk/cis/localteaching/localug/cs316/) (2011--2015);
+[CS411--Theory of Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs411/) (2013--2015).
 
 ## Teaching experience at Reykjavik University
 
-### Master students
 
-Coadvisor for two master students: Marteinn T. Hardarson and
-Bergsteinn Einarsson
+**Master students**: Coadvisor for two master students: Marteinn
+T. Hardarson and Bergsteinn Einarsson
 
-### New courses
+**New courses**: Developed and taught a master level course in
+Generating Functions as well as an undergraduate course in Mathematics
+by Computer.
 
-*  Developed and taught a master level course in Generating Functions
-*  Developed and taught an undergraduate course in Mathematics by Computer
+**Existing courses**: Responsible for several undergraduate courses:
+Number theory and abstract algebra; Financial Mathematics; Calculus for
+teachers; Calculus for computer scientists; Elementary Number Theory;
+Linear Algebra; Graph Theory (shared responibility); Coding Theory
 
-### Existing courses
-
-Responsible for several undergraduate courses: Number theory and abstract
-algebra; Financial Mathematics; Calculus for teachers; Calculus for
-computer scientists; Elementary Number Theory; Linear Algebra; Graph
-Theory (shared responibility); Coding Theory
-
-### Extracurricular
-
-*  Trained the Icelandic math olympiad team in 2007 and 2009
-*  Referee for The Baltic Way mathematical contest, 2010
+**Extracurricular**: Trained the Icelandic math olympiad team in 2007
+and 2009. Referee for The Baltic Way mathematical contest, 2010.
 
 ## Teaching experience at University of Kalmar
 
-*  Developed and taught a new course in Discrete Mathematics
-*  Lecturer in, and responsible for, six courses: Calculus I, Calculus
-   II, Discrete Mathematics, Linear Algebra, Graph Theory, and
-   Mathematics for Economists
-*  Teaching assistant in Algebra and Calculus
+Developed and taught a new course in Discrete Mathematics.  Lecturer in,
+and responsible for, six courses: Calculus I, Calculus II, Discrete
+Mathematics, Linear Algebra, Graph Theory, and Mathematics for
+Economists.  Teaching assistant in Algebra and Calculus
 
 ## Teaching experience at Chalmers University of Technology
 
-*  Lecturer in, and responsible for, two courses: Elementary Number
-   Theory, and Discrete Mathematics
-*  Teaching assistant in a variety of courses, such as: Calculus,
-   Basic Algebra, Linear Algebra, Mathematical Logic, Absolute
-   Geometry, and Discrete Mathematics
+Lecturer in, and responsible for, two courses: Elementary Number Theory,
+and Discrete Mathematics.  Teaching assistant in a variety of courses,
+such as: Calculus, Basic Algebra, Linear Algebra, Mathematical Logic,
+Absolute Geometry, and Discrete Mathematics.
 
 </div>

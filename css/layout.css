@@ -100,13 +100,13 @@ a#navindex {text-decoration: none; background-color: #d9d9d9; color: #222; paddi
 .spark {color: #dedede;}
 
 h1 { font-size: 19px; line-height: 27px; margin-bottom: 13px; }
-h2 { font-size: 16px; line-height: 24px; margin-bottom: 10px; }
-h3 { font-size: 15px; line-height: 20px; margin-bottom: 6px; }
+h2 { font-size: 16px; line-height: 25px; margin-bottom: 10px; }
+h3 { font-size: 15px; line-height: 19px; margin-bottom: 6px; }
 h4 { font-size: 15px; line-height: 19px; margin-bottom: 4px;}
 h5 { font-size: 14px; line-height: 18px; }
 h6 { font-size: 14px; line-height: 17px; }
 
-ol, ul {margin-left:32px; padding-left:0px; }
+ol, ul {list-style:disc; margin-left:26px; padding-left:0px; }
 li {margin-left:0; margin-bottom:4px;}
 td {padding-right: 6px;}
 
