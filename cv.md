@@ -205,7 +205,7 @@ First supervisor for
 [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/) (2011--) and
 second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/) (2012--).
 
-## Degree project works.
+## Degree project works
 
 The following are honours degree projects (4th year) that I have
 supervised at Strathclyde. Each project is worth 30 credits.
@@ -249,7 +249,7 @@ teachers; Calculus for computer scientists; Elementary Number Theory;
 Linear Algebra; Graph Theory (shared responibility); Coding Theory
 
 **Extracurricular**: Trained the Icelandic math olympiad team in 2007
-and 2009. Referee for The Baltic Way mathematical contest, 2010.
+and 2009. Referee for The Baltic Way mathematical contest in 2010.
 
 ## Teaching experience at University of Kalmar
 
