@@ -187,6 +187,9 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Science.
 *  Referee for NSA (National Security Agency) (2011)
 *  Member of the Organizing Committee
+   for [BCC 2017](http://combinatorics.cis.strath.ac.uk/bcc2017/)
+*  Member of the Organizing Committee for PP 2017
+*  Member of the Organizing Committee
    for [PP 2012](http://combinatorics.cis.strath.ac.uk/pp2012/)
 *  Member of the Organizing Committee
    for [FPSAC 2011](http://combinatorics.cis.strath.ac.uk/fpsac2011/)
