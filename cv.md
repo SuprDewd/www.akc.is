@@ -201,9 +201,8 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Doctoral students supervised
 
-First supervisor for
-[Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/) (2011--) and
-second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/) (2012--).
+* First supervisor for [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/), PhD May 2015.
+* Second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), PhD expected 2015.
 
 ## Degree project works
 
