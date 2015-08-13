@@ -43,6 +43,10 @@ main = hakyllWith config $ do
         route $ constRoute "code/index.html"
         compile'
 
+    match "src/sloane/index.html" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match "cv.md" $ do
         route $ constRoute "cv/index.html"
         compile'
