@@ -105,6 +105,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Selected Presentations
 
+*  Permutation Patterns 2015 in London, June 2015
 *  Colloquium at The Open University, Milton Keynes, February 2014
 *  NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden), June 2013
 *  Invited talk in a Special Session on Permutations at the AMS-MAA
@@ -184,8 +185,9 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Science, FPSAC09--21st International Conference on Formal Power
    Series & Algebraic Combinatorics, PP07---The fifth conference on
    Permutation Patterns, LICS---IEEE Symposium on Logic in Computer
-   Science.
-*  Referee for NSA (National Security Agency) (2011)
+   Science
+*  Referee for QNRF (Qatar National Research Fund), 2012
+*  Referee for NSA (National Security Agency), 2011
 *  Member of the Organizing Committee
    for [BCC 2017](http://combinatorics.cis.strath.ac.uk/bcc2017/)
 *  Member of the Organizing Committee for PP 2017
