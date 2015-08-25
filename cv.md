@@ -186,6 +186,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Series & Algebraic Combinatorics, PP07---The fifth conference on
    Permutation Patterns, LICS---IEEE Symposium on Logic in Computer
    Science
+*  Book reviewer for Taylor \& Francis
 *  Referee for QNRF (Qatar National Research Fund), 2012
 *  Referee for NSA (National Security Agency), 2011
 *  Member of the Organizing Committee
