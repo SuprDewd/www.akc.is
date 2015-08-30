@@ -47,6 +47,10 @@ main = hakyllWith config $ do
         route idRoute
         compile copyFileCompiler
 
+    match "src/*/images/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match "cv.md" $ do
         route $ constRoute "cv/index.html"
         compile'
