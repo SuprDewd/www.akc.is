@@ -20,6 +20,10 @@ imagesEtc = foldr1 (.||.)
     , "fonts/*"
     , "downloads/*"
     , "email/key.asc"
+    , "hops/index.html"
+    , "hops/images/*"
+    , "sloane/index.html"
+    , "sloane/images/*"
     ]
 
 main :: IO ()
@@ -42,14 +46,6 @@ main = hakyllWith config $ do
     match "code.md" $ do
         route $ constRoute "code/index.html"
         compile'
-
-    match "src/*/index.html" $ do
-        route idRoute
-        compile copyFileCompiler
-
-    match "src/*/images/*" $ do
-        route idRoute
-        compile copyFileCompiler
 
     match "cv.md" $ do
         route $ constRoute "cv/index.html"
