@@ -224,13 +224,13 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    permutations, Iceland Research Fund, 2014--2016.  
    Grant reference: [141761051](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=141761051)  
    Amount: 9,790,000 ISK
-2. University of Strathclyde Faculty of Science Starter Grant. 2011--2012  
+1. University of Strathclyde Faculty of Science Starter Grant. 2011--2012  
    Amount: 11,000 GBP
-3. Co-recipient of a Grant for Excellence: Combinatorics on Words and
+1. Co-recipient of a Grant for Excellence: Combinatorics on Words and
    Permutations, Iceland Research Fund, 2009--2011.  
    Grant reference: [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)  
    Amount: 67,609,000 ISK
-4. Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
+1. Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
    Iceland Research Fund, 2006--2008.  
    Grant reference: [60005011, 60005012, 60005013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=60005011)  
    Amount: 24,886,000 ISK
@@ -308,11 +308,16 @@ supervised at Strathclyde.
 1. Jordan Haldane, "A Web Program for the 8-Tile Game", 2011
 1. Kenneth Chan, "Guess a Formula from a Sequence of Numbers", 2011
 
-## Examiner / Opponent
+## Examiner, opponent, etc.
 
-1. Internal ...
-1. Convener
-1. External/Opponent HR*2
+1. Internal examiner for Adam Gundry (Strathclyde), PhD, *Type
+   Inference, Haskell and Dependent Types*, 2013
+1. Convener for Pierre-Evariste Dagand (Strathclyde), PhD, *Reusability
+   and Dependent Types*, 2013
+1. Opponent for Lína Viðarsdóttir (Reykjavik University), MSc,
+   *Isomorphisms between consecutive pattern classes*, 2014
+1. Opponent for Hjalti Magnússon (Reykjavik University), MSc, *Sorting
+   Operators and Their Preimages*, 2013
 
 ## Teaching experience at the University of Strathclyde
 
