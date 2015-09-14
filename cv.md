@@ -201,22 +201,21 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Posters
 
-1. FPSAC---24th International Conference on Formal Power Series &
+1. 24th International Conference on Formal Power Series &
    Algebraic Combinatorics (FPSAC 2012), Nagoya, *Sorting and preimages
    of pattern classes*, August 2012
-1. FPSAC---23rd International Conference on Formal Power Series &
-   Algebraic Combinatorics (FPSAC 2011), Reykjavík, *Partition and
-   composition matrices: two matrix analogues of set partitions*, June
-   2011
-1. FPSAC---International Conference on Formal Power Series and Algebraic
-   Combinatorics, *Pattern avoidance in partial permutations*, August
-   2010
-1. FPSAC---The 22nd International Conference on Formal Power Series and
+1. 23rd International Conference on Formal Power Series & Algebraic
+   Combinatorics (FPSAC 2011), Reykjavík, *Partition and composition
+   matrices: two matrix analogues of set partitions*, June 2011
+1. 22nd International Conference on Formal Power Series and
+   Algebraic Combinatorics (FPSAC 2010), *Pattern avoidance in partial
+   permutations*, August 2010
+1. 22nd International Conference on Formal Power Series and
    Algebraic Combinatorics (FPSAC 2010), San Francisco State University,
    *n! matchings, n! posets*, August 2010
-1. FPSAC---International Conference on Formal Power Series and Algebraic
-   Combinatorics, *Classification of bijections between 321- and
-   132-avoiding permutations*, June 2008
+1. 20th International Conference on Formal Power Series and Algebraic
+   Combinatorics (FPSAC 2008), *Classification of bijections between
+   321- and 132-avoiding permutations*, June 2008
 
 ## Research Grants
 
