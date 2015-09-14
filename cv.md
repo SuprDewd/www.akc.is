@@ -69,6 +69,7 @@ visited [Mireille Bousquet-Mélou](http://www.labri.fr/perso/bousquet/)
 at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Journal Publications and Preprints
+
    See [http://akc.is/papers/](http://akc.is/papers/)
 
 ## Publications in Conference proceedings
@@ -220,17 +221,17 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 ## Research Grants
 
 1. Co-recipient of a project grant: Finding structure in sets of
-   permutations, Iceland Research Fund, 2014--2016.  
+   permutations, Iceland Research Fund, 2014--2016.
    Grant reference: [141761051](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=141761051)  
    Amount: 9,790,000 ISK
 1. University of Strathclyde Faculty of Science Starter Grant. 2011--2012  
    Amount: 11,000 GBP
 1. Co-recipient of a Grant for Excellence: Combinatorics on Words and
-   Permutations, Iceland Research Fund, 2009--2011.  
+   Permutations, Iceland Research Fund, 2009--2011.
    Grant reference: [90038011, 90038012, 90038013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=90038011)  
    Amount: 67,609,000 ISK
 1. Postdoc grant as a part of a Grant of Excellence: Permutation patterns,
-   Iceland Research Fund, 2006--2008.  
+   Iceland Research Fund, 2006--2008.
    Grant reference: [60005011, 60005012, 60005013](http://rannis.rhi.hi.is/AllocatedFunds/meirasida.php?a=rsj&b=60005011)  
    Amount: 24,886,000 ISK
 
@@ -293,19 +294,19 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 The following are honours degree (4th year) projects that I have
 supervised at Strathclyde.
 
-1. Wojciech Jesiotr, "Sorting by shifts on a torus", 2014
-1. Graeme Hutchinson, "A 'Read it later' program", 2014
-1. Scott McCullagh, "Password manager", 2014
-1. Connor Galligan, "talk 3000", 2014
-1. Kit Yiu Raymond Leung, "A sorting game played on a square", 2013
-1. Mark Graham, "A distributed password manager", 2013
-1. Ricky Dalziel, "A sorting game played on a square", 2012
-1. Stuart Paton, "Catalan structures and bijections", 2012
-1. Ross Herbertson, "Sorting with primitive devices", 2012
-1. Michael Wilson, "Guess a Formula from a Sequence of Numbers", 2011
-1. Ramadan Khadeir, "Binary Strings Avoiding a Given Substring as a Factor", 2011
-1. Jordan Haldane, "A Web Program for the 8-Tile Game", 2011
-1. Kenneth Chan, "Guess a Formula from a Sequence of Numbers", 2011
+1. Wojciech Jesiotr, *Sorting by shifts on a torus*, 2014
+1. Graeme Hutchinson, *A "Read it later" program*, 2014
+1. Scott McCullagh, *Password manager*, 2014
+1. Connor Galligan, *talk 3000*, 2014
+1. Kit Yiu Raymond Leung, *A sorting game played on a square*, 2013
+1. Mark Graham, *A distributed password manager*, 2013
+1. Ricky Dalziel, *A sorting game played on a square*, 2012
+1. Stuart Paton, *Catalan structures and bijections*, 2012
+1. Ross Herbertson, *Sorting with primitive devices*, 2012
+1. Michael Wilson, *Guess a Formula from a Sequence of Numbers*, 2011
+1. Ramadan Khadeir, *Binary Strings Avoiding a Given Substring as a Factor*, 2011
+1. Jordan Haldane, *A Web Program for the 8-Tile Game*, 2011
+1. Kenneth Chan, *Guess a Formula from a Sequence of Numbers*, 2011
 
 ## Examiner, opponent, etc.
 
