@@ -103,46 +103,120 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Arizona State University, May 2001
 
 
-## Selected Presentations
+## Presentations at international conferences
 
-*  Permutation Patterns 2015 in London, June 2015
-*  Colloquium at The Open University, Milton Keynes, February 2014
-*  NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden), June 2013
-*  Invited talk in a Special Session on Permutations at the AMS-MAA
-   Joint Mathematics Meeting in San Diego.  The session was organized
-   by Brian Miceli, Jeff Remmel and Jeff Liese, January 2013
-*  Permutation Patterns 2011 at California Polytechnic State Unviersity, June 2011
-*  Aurora Borealis Combinatorics Workshop, Abisko (Sweden), December 2010
-*  Computer Science and Information Science Seminars, University of Otago,
-   March 2010
-*  Invited talk in a Special Session on Permutations at the AMS-MAA
-   Joint Mathematics Meeting in San Francisco.
-   The session was organized by Persi Diaconis, Ira Gessel and Richard
-   Stanley, January 2010
-*  FPSAC---International Conference on Formal Power Series and
-   Algebraic Combinatorics, August 2010, July 2009, June 2008
-   (poster), and May 2001
-*  Permutation Patterns 2010 at Dartmouth College, August 2010
-*  Combinatorics seminar at KTH (Royal Institute of Technology,
-   Stockholm), April 2009, December 2007, and December 2006
-*  Combinatorics Seminar at Reykjavik University,
-   February 2009
-*  Budapesti Műszaki és Gazdaságtudományi Egyetem (BME),
-   October 2008
-*  Reykjavik University, ICE-TCS, Research Seminar Series,
-   April 2015, April 2014, October 2007, March 2007, May 2006, and March 2006
-*  University of Iceland, October 2010, April 2007 and twice in October 2006,
-*  The Icelandic Mathematical Society, August 2006
-*  Mathematics Seminar at the University of Karlstad, December 2005
-*  Combinatorics Seminar at Chalmers University of Technology,
-   November 2005, March 2003, September 2001, April 2001, and February 2001
-*  Kalmars Matematiska Kollokvium, October 2005, September 2005, 
-   June 2004, and October 2004
-*  24th Nordic and 1st Franco-Nordic Congress of Mathematicians,
-   Reykjavik, Iceland, January 2005
-*  Tutte Colloquium, University of Waterloo, May 2002
-*  Combinatorics Seminar at LaBRI, Université Bordeaux 1, 
-   February 2001
+1. Permutation Patterns 2015 in London, *An exponential formula for
+   counting subsets, subwords and permutation patterns*, June 2015
+1. NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden),
+   *Upper bounds for the Stanley-Wilf limit of layered patterns*, June 2013
+1. Invited talk in a Special Session on Permutations at the AMS-MAA
+   Joint Mathematics Meeting in San Diego, *Upper bounds for the
+   Stanley-Wilf limit of 1324*, January 2013
+1. Permutation Patterns 2011 at California Polytechnic State Unviersity,
+   *1324-avoiders with few inversions* June 2011
+1. Aurora Borealis Combinatorics Workshop, Abisko (Sweden), *Mesh
+   Patterns*, December 2010
+1. Invited talk in a Special Session on Permutations at the AMS-MAA
+   Joint Mathematics Meeting in San Francisco, *$n!$ matchings, $n!$
+   posets*, January 2010
+1. FPSAC---International Conference on Formal Power Series and Algebraic
+   Combinatorics, San Francisco, *$n!$ matchings, $n!$ posets*, August 2010
+1. Permutation Patterns 2010 at Dartmouth College, *Expanding
+   permutation statistics as sums of permutation patterns*, August 2010
+1. FPSAC---International Conference on Formal Power Series and Algebraic
+   Combinatorics, *Unlabeled (2+2)-free posets, ascent sequences and
+   pattern avoiding permutations*, July 2009
+1. 24th Nordic and 1st Franco-Nordic Congress of Mathematicians,
+   Reykjavik, *Permutations in new guises*, Iceland, January 2005
+1. FPSAC---International Conference on Formal Power Series and Algebraic
+   Combinatorics, Arizona State University, *Generalised pattern
+   avoidance*, May 2001
+
+## Selected other presentations
+
+1. Reykjavik University, ICE-TCS, Research Seminar Series, *Pascal's
+   matrix and incidence algebras*, April 2015
+1. Colloquium at The Open University, *The monotonicity of principal
+   pattern classes with respect to inversions*, Milton Keynes, February
+   2014
+1. Reykjavik University, ICE-TCS, Research Seminar Series, *Interval
+   orders can be viewed as pairs of permutations*, April 2014
+1. Computer Science and Information Science Seminars, University of
+   Otago, *Conway's Napkin Problem*, March 2010
+1. University of Iceland, *Permutations in two new guises*, October 2010
+1. Combinatorics seminar at KTH (Royal Institute of Technology,
+   Stockholm), *(2+2)-free posets, ascent sequences and pattern avoiding
+   permutations*, April 2009
+1. Combinatorics Seminar at Reykjavik University, *Factors in binary
+   strings* ,February 2009
+1. Undergraduate Mathematics Seminar Series, Reykjavik University,
+   *Conway's Napkin Problem*, November 2009
+1. Budapesti Műszaki és Gazdaságtudományi Egyetem (BME), *Unlabeled
+   (2+2)-free posets, ascent sequences and pattern avoiding
+   permutations*, October 2008
+1. Combinatorics seminar at KTH (Royal Institute of Technology,
+   Stockholm), *Stack sorting, trees and pattern avoidance*, December
+   2007
+1. Reykjavik University, ICE-TCS, Research Seminar Series, *Stack
+   sorting, trees and pattern avoidance*, October 2007
+1. Reykjavik University, ICE-TCS, Research Seminar Series, *The
+   generating power of continued fractions*, March 2007
+1. University of Iceland, *The generating power of continued fractions*,
+   April 2007
+1. Combinatorics seminar at KTH (Royal Institute of Technology,
+   Stockholm), *Conway's napkin problem*, December 2006
+1. ICE-TCS Theory Day, Reykjavik University, *An introduction to
+   permutation patterns*, June 2006
+1. Reykjavik University, ICE-TCS, Research Seminar Series, May 2006
+1. Reykjavik University, ICE-TCS, Research Seminar Series, *Conway's
+   Napkin Problem*, March 2006
+1. The Icelandic Mathematical Society, University of Iceland, *Continued
+   Fractions and Increasing Subsequences in Permutations*, October 2006
+1. University of Iceland, October 2006
+1. The Icelandic Mathematical Society, *The art of bijections and the
+   science of generating functions*, August 2006
+1. Mathematics Seminar at the University of Karlstad, *Conways
+   servettproblem*, December 2005
+1. Combinatorics Seminar at Chalmers University of Technology, *Conways
+   servettproblem*, November 2005
+1. Kalmars Matematiska Kollokvium, *En permutationsgrupp betämd av pomängd*, October 2005
+1. Kalmars Matematiska Kollokvium, *Conways servettproblem*, September 2005
+1. Kalmars Matematiska Kollokvium, *Vad kedjebråk och Pascals triangel
+   har med mönster i permutationer att göra*, June 2004
+1. Kalmars Matematiska Kollokvium, *Permutationsmönster*, October 2004
+1. Summer School on Combinatorics of Groups and Algebras, CIRM, Luminy,
+   *Permutation patterns and Catalan continued fractions*, July 2004
+1. Combinatorics Seminar at Chalmers University of Technology, *Gröbner
+   bases*, March 2003
+1. Tutte Colloquium, University of Waterloo, May 2002 1. Combinatorics
+   Seminar at LaBRI, Université Bordeaux 1, *Generalised Pattern
+   Avoidance*, February 2001
+1. Combinatorics Seminar at Chalmers University of Technology,
+   *Permutations, Patterns, and Binary Trees*, September 2001
+1. Combinatorics Seminar at Chalmers University of Technology, *The
+   Coding of Permutations and Set Partitions by Labelled Motzkin Paths*,
+   April 2001
+1. Combinatorics Seminar at Chalmers University of Technology, *Rook
+   Theory*, February 2001
+
+## Posters
+
+1. FPSAC---24th International Conference on Formal Power Series &
+   Algebraic Combinatorics (FPSAC 2012), Nagoya, *Sorting and preimages
+   of pattern classes*, August 2012
+1. FPSAC---23rd International Conference on Formal Power Series &
+   Algebraic Combinatorics (FPSAC 2011), Reykjavík, *Partition and
+   composition matrices: two matrix analogues of set partitions*, June
+   2011
+1. FPSAC---International Conference on Formal Power Series and Algebraic
+   Combinatorics, *Pattern avoidance in partial permutations*, August
+   2010
+1. FPSAC---The 22nd International Conference on Formal Power Series and
+   Algebraic Combinatorics (FPSAC 2010), San Francisco State University,
+   *n! matchings, n! posets*, August 2010
+1. FPSAC---International Conference on Formal Power Series and Algebraic
+   Combinatorics, *Classification of bijections between 321- and
+   132-avoiding permutations*, June 2008
 
 ## Research Grants
 
@@ -201,33 +275,44 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 *  Organizer of the combinatorics seminar at Reykjavik University, 2006--2010
 *  Member of the hiring committee (RU) for postdoc positions in 2008
 *  Member of the hiring committee (RU) for postdoc positions in 2009
+*  Member of the hiring committee (Strathclyde) for postdoc positions in 2014
+*  Member of the hiring committee (Strathclyde) for postdoc positions in 2015
 *  Member of the International Student Recruitment Group at Strathclyde
    since 2012
 *  PhD selector (admissions officer) at CIS Strathclyde since July 2011
 
 ## Doctoral students supervised
 
-* First supervisor for [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/), PhD May 2015.
-* Second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/), PhD expected 2015.
+* First supervisor for
+  [Stuart Hannah](https://personal.cis.strath.ac.uk/stuart.a.hannah/),
+  PhD May 2015.
+* Second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/),
+  PhD September 2015.
 
-## Degree project works
+## Honours degree projects supervised
 
-The following are honours degree projects (4th year) that I have
-supervised at Strathclyde. Each project is worth 30 credits.
+The following are honours degree (4th year) projects that I have
+supervised at Strathclyde.
 
-*  Wojciech Jesiotr, "Sorting by shifts on a torus", 2014
-*  Graeme Hutchinson, "A 'Read it later' program", 2014
-*  Scott McCullagh, "Password manager", 2014
-*  Connor Galligan, "talk 3000", 2014
-*  Kit Yiu Raymond Leung, "A sorting game played on a square", 2013
-*  Mark Graham, "A distributed password manager", 2013
-*  Ricky Dalziel, "A sorting game played on a square", 2012
-*  Stuart Paton, "Catalan structures and bijections", 2012
-*  Ross Herbertson, "Sorting with primitive devices", 2012
-*  Michael Wilson, "Guess a Formula from a Sequence of Numbers", 2011
-*  Ramadan Khadeir, "Binary Strings Avoiding a Given Substring as a Factor", 2011
-*  Jordan Haldane, "A Web Program for the 8-Tile Game", 2011
-*  Kenneth Chan, "Guess a Formula from a Sequence of Numbers", 2011
+1. Wojciech Jesiotr, "Sorting by shifts on a torus", 2014
+1. Graeme Hutchinson, "A 'Read it later' program", 2014
+1. Scott McCullagh, "Password manager", 2014
+1. Connor Galligan, "talk 3000", 2014
+1. Kit Yiu Raymond Leung, "A sorting game played on a square", 2013
+1. Mark Graham, "A distributed password manager", 2013
+1. Ricky Dalziel, "A sorting game played on a square", 2012
+1. Stuart Paton, "Catalan structures and bijections", 2012
+1. Ross Herbertson, "Sorting with primitive devices", 2012
+1. Michael Wilson, "Guess a Formula from a Sequence of Numbers", 2011
+1. Ramadan Khadeir, "Binary Strings Avoiding a Given Substring as a Factor", 2011
+1. Jordan Haldane, "A Web Program for the 8-Tile Game", 2011
+1. Kenneth Chan, "Guess a Formula from a Sequence of Numbers", 2011
+
+## Examiner / Opponent
+
+1. Internal ...
+1. Convener
+1. External/Opponent HR*2
 
 ## Teaching experience at the University of Strathclyde
 
