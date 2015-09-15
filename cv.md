@@ -204,19 +204,21 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 1. 24th International Conference on Formal Power Series &
    Algebraic Combinatorics (FPSAC 2012), Nagoya, *Sorting and preimages
-   of pattern classes*, August 2012
+   of pattern classes*, with Henning Úlfarsson, August 2012
 1. 23rd International Conference on Formal Power Series & Algebraic
    Combinatorics (FPSAC 2011), Reykjavík, *Partition and composition
-   matrices: two matrix analogues of set partitions*, June 2011
-1. 22nd International Conference on Formal Power Series and
-   Algebraic Combinatorics (FPSAC 2010), *Pattern avoidance in partial
-   permutations*, August 2010
-1. 22nd International Conference on Formal Power Series and
-   Algebraic Combinatorics (FPSAC 2010), San Francisco State University,
-   *n! matchings, n! posets*, August 2010
+   matrices: two matrix analogues of set partitions*, with Mark Dukes
+   and Martina Kubitzke, June 2011
+1. 22nd International Conference on Formal Power Series and Algebraic
+   Combinatorics (FPSAC 2010), *Pattern avoidance in partial
+   permutations*, with Vit Jelínek, Eva Jelínková, Sergey Kitaev, August
+   2010
+1. 22nd International Conference on Formal Power Series and Algebraic
+   Combinatorics (FPSAC 2010), San Francisco State University, *n!
+   matchings, n! posets*, with Svante Linusson, August 2010
 1. 20th International Conference on Formal Power Series and Algebraic
    Combinatorics (FPSAC 2008), *Classification of bijections between
-   321- and 132-avoiding permutations*, June 2008
+   321- and 132-avoiding permutations*, with Sergey Kitaev, June 2008
 
 ## Research Grants
 
