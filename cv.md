@@ -144,6 +144,8 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    orders can be viewed as pairs of permutations*, April 2014
 1. Computer Science and Information Science Seminars, University of
    Otago, *Conway's Napkin Problem*, March 2010
+1. CISeminar, University of Strathclyde, *New directions in permutation
+   patterns*, September 2010
 1. University of Iceland, *Permutations in two new guises*, October 2010
 1. Combinatorics seminar at KTH (Royal Institute of Technology,
    Stockholm), *(2+2)-free posets, ascent sequences and pattern avoiding
@@ -290,6 +292,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
   PhD May 2015.
 * Second supervisor for [Jason Smith](https://personal.cis.strath.ac.uk/jason.p.smith/),
   PhD September 2015.
+* Second supervisor for Christian Bean (Reykjavik University). Ongoing. Started in 2014.
 
 ## Honours degree projects supervised
 
