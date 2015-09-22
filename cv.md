@@ -72,6 +72,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
    See [http://akc.is/papers/](http://akc.is/papers/)
 
+<!--
 ## Publications in Conference proceedings
 
 1. Sorting and preimages of pattern classes, with Henning Úlfarsson,
@@ -102,7 +103,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 1. Generalized Pattern Avoidance, The 13th International Conference on
    Formal Power Series and Algebraic Combinatorics (FPSAC 2001),
    Arizona State University, May 2001
-
+-->
 
 ## Presentations at international conferences
 
