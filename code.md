@@ -12,7 +12,7 @@ I'm the author and maintainer of the following Haskell packages:
 </div>
 <div class="item">
   [[GitHub](https://github.com/akc/hops)][[Hackage](http://hackage.haskell.org/package/hops)]  
-  **hops** -- Hackable Operations on Power Series. This package provides a scripting
+  **hops** -- Handy Operations on Power Series. This package provides a scripting
   language for generating functions and an accompanying interpreter.
 </div>
 <div class="item">
