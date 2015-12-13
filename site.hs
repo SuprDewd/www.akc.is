@@ -102,7 +102,7 @@ main = hakyllWith config $ do
 config :: Configuration
 config = defaultConfiguration
     { deployCommand = unlines
-       [ "rsync -av --delete --exclude 'hops' _site/* ../akc.github.io"
+       [ "rsync -av --delete --exclude 'hops' --exclude 'sloane' _site/* ../akc.github.io"
        , "cd ../akc.github.io"
        , "git add -A"
        , "msg=\"Deployed: \"`date`"
