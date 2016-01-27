@@ -9,7 +9,7 @@ id: index
 
 ## Anders Claesson
 
-[Senior lecturer](http://www.cis.strath.ac.uk/cis/staff/index.php?uid=34726),
+Docent at the [University of Iceland](http://english.hi.is/),
 [combinatorialist](/papers/) and
 [programming](/code/) enthusiast
 
