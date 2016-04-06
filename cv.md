@@ -136,6 +136,11 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Selected other presentations
 
+1. Math Colloquium, University of Iceland, *Interval orders via
+   combinatorial species and ballot matrices*, February 2016
+1. Combinatorics seminar at KTH (Royal Institute of Technology,
+   Stockholm), *Interval orders via combinatorial species and ballot
+   matrices*, November 2015
 1. Reykjavik University, ICE-TCS, Research Seminar Series, *Pascal's
    matrix and incidence algebras*, April 2015
 1. Colloquium at The Open University, *The monotonicity of principal
