@@ -9,7 +9,7 @@ id: index
 
 ## Anders Claesson
 
-Docent at the [University of Iceland](http://english.hi.is/),
+Professor at the [University of Iceland](http://english.hi.is/),
 [combinatorialist](/papers/) and
 [programming](/code/) enthusiast
 

@@ -321,6 +321,8 @@ supervised at Strathclyde.
 
 ## Examiner, opponent, etc.
 
+1. Opponent for Murray Tannock (Reykjavik University), MSc, *Equivalence
+   classes of mesh patterns with a dominating pattern*, 2016
 1. Internal examiner for Adam Gundry (Strathclyde), PhD, *Type
    Inference, Haskell and Dependent Types*, 2013
 1. Convener for Pierre-Evariste Dagand (Strathclyde), PhD, *Reusability
