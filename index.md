@@ -9,7 +9,7 @@ id: index
 
 ## Anders Claesson
 
-Professor at the [University of Iceland](http://english.hi.is/),
+[Professor](http://starfsfolk.hi.is/simaskra/48348) at the [University of Iceland](http://english.hi.is/),
 [combinatorialist](/papers/) and
 [programming](/code/) enthusiast
 
