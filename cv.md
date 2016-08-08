@@ -14,7 +14,8 @@ statistics, permutation patterns and partially ordered sets
 
 ## Employment
 
-*  Senior Lecturer, [University of Strathclyde](http://www.strath.ac.uk/), From 2011
+*  Professor, [University of Iceland](http://english.hi.is/), 2016--
+*  Senior Lecturer, [University of Strathclyde](http://www.strath.ac.uk/), 2011--2015
 *  Associate Professor, [Reykjavík University](http://www.ru.is/), 2009--2010
 *  Assistant Professor, [Reykjavík University](http://www.ru.is/), 2006--2009
 *  Lecturer, [University of Kalmar](http://lnu.se/)
@@ -107,6 +108,9 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 
 ## Presentations at international conferences
 
+1. Plenary/Invited talk at Permutation Patterns 2016 in Washington DC,
+   *Interval orders and their interpretations in terms of permutations*,
+   June 2016
 1. Permutation Patterns 2015 in London, *An exponential formula for
    counting subsets, subwords and permutation patterns*, June 2015
 1. NORCOM---The 11th Nordic Combinatorial Conference, KTH (Sweden),
