@@ -14,7 +14,7 @@ statistics, permutation patterns and partially ordered sets
 
 ## Employment
 
-*  Professor, [University of Iceland](http://english.hi.is/), 2016--
+*  Professor, [University of Iceland](http://english.hi.is/), from 2016
 *  Senior Lecturer, [University of Strathclyde](http://www.strath.ac.uk/), 2011--2015
 *  Associate Professor, [Reykjavík University](http://www.ru.is/), 2009--2010
 *  Assistant Professor, [Reykjavík University](http://www.ru.is/), 2006--2009
