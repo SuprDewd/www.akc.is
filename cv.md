@@ -291,9 +291,8 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 *  Member of the hiring committee (RU) for postdoc positions in 2009
 *  Member of the hiring committee (Strathclyde) for postdoc positions in 2014
 *  Member of the hiring committee (Strathclyde) for postdoc positions in 2015
-*  Member of the International Student Recruitment Group at Strathclyde
-   since 2012
-*  PhD selector (admissions officer) at CIS Strathclyde since July 2011
+*  Member of the International Student Recruitment Group at Strathclyde, 2012--2015
+*  PhD selector (admissions officer) at CIS Strathclyde, 2011--2015
 
 ## Doctoral students supervised
 
