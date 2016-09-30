@@ -279,13 +279,14 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
 *  Referee for NSA (National Security Agency), 2011
 *  Member of the Organizing Committee
    for [BCC 2017](http://combinatorics.cis.strath.ac.uk/bcc2017/)
-*  Member of the Organizing Committee for PP 2017
+*  Member of the Organizing Committee for [PP 2017](https://pp2017.github.io/)
 *  Member of the Organizing Committee
    for [PP 2012](http://combinatorics.cis.strath.ac.uk/pp2012/)
 *  Member of the Organizing Committee
    for [FPSAC 2011](http://combinatorics.cis.strath.ac.uk/fpsac2011/)
 *  Member of the Organizing Committee for the 10th Nordic
    Combinatorial Conference (NORCOM 2010)
+*  Organizer of the [Math Colloquium](http://math.hi.is/en/malstofa/) at the University of Iceland, from 2016
 *  Organizer of the combinatorics seminar at Reykjavik University, 2006--2010
 *  Member of the hiring committee (RU) for postdoc positions in 2008
 *  Member of the hiring committee (RU) for postdoc positions in 2009
