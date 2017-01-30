@@ -22,6 +22,7 @@ imagesEtc = foldr1 (.||.)
     , "email/key.asc"
     , "sloane/index.html"
     , "sloane/images/*"
+    , "keybase.txt"
     ]
 
 main :: IO ()

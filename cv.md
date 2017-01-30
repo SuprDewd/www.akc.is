@@ -263,7 +263,8 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Lotharingien de Combinatoire, Annals of Combinatorics, Journal of
    Integer Sequences, Discrete Applied Mathematics, Pure Mathematics
    and Applications, The Australasian Journal of Combinatorics, The
-   Journal of Combinatorial Mathematics and Combinatorial Computing.
+   Journal of Combinatorial Mathematics and Combinatorial Computing,
+   Discrete Mathematics & Theoretical Computer Science.
 *  Referee work for Conferences:
    PP13--The eleventh conference on
    Permutation Patterns, PP10--The eighth conference on
@@ -276,7 +277,7 @@ at LaBRI, Université Bordeaux 1, for one month in the spring of 2001.
    Science
 *  Book reviewer for Taylor \& Francis
 *  Referee for QNRF (Qatar National Research Fund), 2012
-*  Referee for NSA (National Security Agency), 2011
+*  Referee for NSA (National Security Agency) / NSF (National Science Foundation), 2011, 2016.
 *  Member of the Organizing Committee
    for [BCC 2017](http://combinatorics.cis.strath.ac.uk/bcc2017/)
 *  Member of the Organizing Committee for [PP 2017](https://pp2017.github.io/)
