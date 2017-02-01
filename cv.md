@@ -343,6 +343,7 @@ supervised at Strathclyde.
 
 --------  ------  ----------------------
   Spring   2017:  [STÆ401M - Algebra II](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09122020170&kennsluar=2016)
+  Spring   2017:  [STÆ402G - Mathematical Seminar](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09106420170&kennsluar=2016)
   Autumn   2016:  [STÆ303G - Algebra I](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09103220156)
   Spring   2016:  [STÆ402G - Mathematical Seminar](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09106420160&kennsluar=2015)
 --------  ------  ----------------------
