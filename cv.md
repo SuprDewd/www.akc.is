@@ -337,7 +337,17 @@ supervised at Strathclyde.
 1. Opponent for Hjalti Magnússon (Reykjavik University), MSc, *Sorting
    Operators and Their Preimages*, 2013
 
-## Teaching experience at the University of Strathclyde
+## Teaching experience
+
+###  University of Iceland
+
+--------  ------  ----------------------
+  Spring   2017:  [STÆ401M - Algebra II](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09122020170&kennsluar=2016)
+  Autumn   2016:  [STÆ303G - Algebra I](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09103220156)
+  Spring   2016:  [STÆ402G - Mathematical Seminar](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09106420160&kennsluar=2015)
+--------  ------  ----------------------
+
+### University of Strathclyde
 
 Lecturer in, and responsible for, the following courses:
 [CS101--Topics in Computing 1](http://www.strath.ac.uk/cis/localteaching/localug/cs101/) (2011--2012);
@@ -346,32 +356,31 @@ Lecturer in, and responsible for, the following courses:
 [CS316--Functional Programming](http://www.strath.ac.uk/cis/localteaching/localug/cs316/) (2011--2015);
 [CS411--Theory of Computation](http://www.strath.ac.uk/cis/localteaching/localug/cs411/) (2013--2015).
 
-## Teaching experience at Reykjavik University
+### Reykjavik University
 
-
-**Master students**: Coadvisor for two master students: Marteinn
+*Master students*: Coadvisor for two master students: Marteinn
 T. Hardarson and Bergsteinn Einarsson
 
-**New courses**: Developed and taught a master level course in
+*New courses*: Developed and taught a master level course in
 Generating Functions as well as an undergraduate course in Mathematics
 by Computer.
 
-**Existing courses**: Responsible for several undergraduate courses:
+*Existing courses*: Responsible for several undergraduate courses:
 Number theory and abstract algebra; Financial Mathematics; Calculus for
 teachers; Calculus for computer scientists; Elementary Number Theory;
 Linear Algebra; Graph Theory (shared responibility); Coding Theory
 
-**Extracurricular**: Trained the Icelandic math olympiad team in 2007
+*Extracurricular*: Trained the Icelandic math olympiad team in 2007
 and 2009. Referee for The Baltic Way mathematical contest in 2010.
 
-## Teaching experience at University of Kalmar
+### University of Kalmar
 
 Developed and taught a new course in Discrete Mathematics.  Lecturer in,
 and responsible for, six courses: Calculus I, Calculus II, Discrete
 Mathematics, Linear Algebra, Graph Theory, and Mathematics for
 Economists.  Teaching assistant in Algebra and Calculus
 
-## Teaching experience at Chalmers University of Technology
+### Chalmers University of Technology
 
 Lecturer in, and responsible for, two courses: Elementary Number Theory,
 and Discrete Mathematics.  Teaching assistant in a variety of courses,
