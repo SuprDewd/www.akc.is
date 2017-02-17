@@ -6,7 +6,11 @@
   $else$
     Preprint
   $endif$
- ($year$) $pages$<br/>
+ ($year$)
+  $if(pages)$
+    $pages$
+  $endif$
+  <br/>
   $if(doi)$
     <a href="$doi$" class="doi">$doi$</a><br/>
   $endif$
