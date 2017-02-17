@@ -369,7 +369,7 @@ by Computer.
 *Existing courses*: Responsible for several undergraduate courses:
 Number theory and abstract algebra; Financial Mathematics; Calculus for
 teachers; Calculus for computer scientists; Elementary Number Theory;
-Linear Algebra; Graph Theory (shared responibility); Coding Theory
+Linear Algebra; Graph Theory (shared responsibility); Coding Theory
 
 *Extracurricular*: Trained the Icelandic math olympiad team in 2007
 and 2009. Referee for The Baltic Way mathematical contest in 2010.
