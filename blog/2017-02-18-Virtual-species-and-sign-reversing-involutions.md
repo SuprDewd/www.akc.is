@@ -102,12 +102,45 @@ of $E\cdot E^{-1}$ are pairs $(S, \beta)$ such that $S\subseteq U$ and
 $\beta=B_1 B_2\dots B_k$ is a signed ballot of $U\setminus S$. For example,
 $(E\cdot E^{-1})[\{a,b,c\}]$ consists of the pairs
 $$
-\begin{array}{cc}
-  (\{a,b,c\}, 0) & (\emptyset,\{a,b,c\}) \\
-  (\{a,b\}, \{c\})      \\
-  (\{a,c\}, \{b\})      \\
+\begin{array}{c|c}
+  \text{positive pairs} & \text{negative pairs} \\
+  (\{a,b,c\}, \emptyset)    & (\emptyset,\{a,b,c\}) \\
+  (\emptyset, \{a\}\{b,c\}) & (\{a\}, \{b,c\})      \\
+  (\emptyset, \{b\}\{a,c\}) & (\{b\}, \{a,c\})      \\
+  (\emptyset, \{c\}\{a,b\}) & (\{c\}, \{a,b\})      \\
+  (\emptyset, \{a,b\}\{c\}) & (\{a,b\}, \{c\})      \\
+  (\emptyset, \{a,c\}\{b\}) & (\{a,c\}, \{b\})      \\
+  (\emptyset, \{b,c\}\{a\}) & (\{b,c\}, \{a\})      \\
+  (\{a\}, \{b\}\{c\})       & (\emptyset, \{a\}\{b\}\{c\})  \\
+  (\{a\}, \{c\}\{b\})       & (\emptyset, \{a\}\{c\}\{b\})  \\
+  (\{b\}, \{a\}\{c\})       & (\emptyset, \{b\}\{a\}\{c\})  \\
+  (\{b\}, \{c\}\{a\})       & (\emptyset, \{b\}\{c\}\{a\})  \\
+  (\{c\}, \{a\}\{b\})       & (\emptyset, \{c\}\{a\}\{b\})  \\
+  (\{c\}, \{b\}\{a\})       & (\emptyset, \{c\}\{b\}\{a\})  \\
 \end{array}
 $$
-where we have used $0$ to denote the empty ballot.
+This suggest the natural sign-reversing involution
+$$
+f(S,B_1 B_2 \dots B_k) =
+\begin{cases}
+  (B_1, B_2 B_3 \dots B_k) &\text{if $S=\emptyset$,}\\
+  (\emptyset, SB_1 B_2 \dots B_k) &\text{if $S\neq\emptyset$.}
+\end{cases}
+$$
+
+More generally, if $F$ is a species such that $|F[\emptyset$]|=1$ then
+the multiplicative inverse, $F^{-1}$, is the virtual species of lists
+$\alpha_1\alpha_2\dots\alpha_k$ of nonempty $F$-structures in which the sign
+is $(-1)^k$.  A proof is given by the sign-reversing involution
+$$
+f(\alpha,\alpha_1 \alpha_2 \dots \alpha_k) =
+\begin{cases}
+  (\alpha_1, \alpha_2 \alpha_3 \dots \alpha_k)
+    &\text{if $\alpha\in F[\emptyset]$,}\\
+  (\emptyset, \alpha \alpha_1 \alpha_2 \dots \alpha_k)
+    &\text{if $\alpha\notin F[\emptyset]$.}
+\end{cases}
+$$
+
 
 </div>
