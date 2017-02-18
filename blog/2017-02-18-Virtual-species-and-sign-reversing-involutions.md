@@ -73,10 +73,9 @@ E^{-1} = (1+E_+)^{-1} = \sum_{k\geq 0} (-1)^k(E_+)^k,
 $$
 where $E_+$ denotes the species of nonempty sets. Thus, $E^{-1}$ is the
 species of signed ballots (also called ordered set partitions) where the
-sign $\epsilon(B_1\dots B_k)$ of a ballot $B_1\dots B_k$ is $(-1)^k$;
-that is, the parity of the number of blocks. For instance,
-$\{d\}\{a,c,e\}\{b\}$ is a ballot of $U=\{a,b,c,d,e\}$ and its sign is
-$(-1)^3=-1$.
+sign of a ballot $B_1 B_2\dots B_k$ is $(-1)^k$; that is, the parity of
+the number of blocks. For instance, $\{d\}\{a,c,e\}\{b\}$ is a ballot of
+$U=\{a,b,c,d,e\}$ and its sign is $(-1)^3=-1$.
 
 The species of subsets $\newcommand{\Pow}{\mathfrak{P}}\Pow$ is defined
 by $\Pow[U]=\{(S,U\setminus S): S\subseteq U\}$. Note that
@@ -98,6 +97,17 @@ $$
 Thus, the species interpretation of there being equaly many subsets of
 even as of odd cardinality is $E\cdot E^{-1}=1$.
 So, a combinatorial proof of this fact can be given by a
-sign-reversing involution demonstrating that $E\cdot E^{-1}=1$.
+sign-reversing involution demonstrating that $E\cdot E^{-1}=1$. The objects
+of $E\cdot E^{-1}$ are pairs $(S, \beta)$ such that $S\subseteq U$ and
+$\beta=B_1 B_2\dots B_k$ is a signed ballot of $U\setminus S$. For example,
+$(E\cdot E^{-1})[\{a,b,c\}]$ consists of the pairs
+$$
+\begin{array}{cc}
+  (\{a,b,c\}, 0) & (\emptyset,\{a,b,c\}) \\
+  (\{a,b\}, \{c\})      \\
+  (\{a,c\}, \{b\})      \\
+\end{array}
+$$
+where we have used $0$ to denote the empty ballot.
 
 </div>
