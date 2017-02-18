@@ -128,10 +128,11 @@ f(S,B_1 B_2 \dots B_k) =
 \end{cases}
 $$
 
-More generally, if $F$ is a species such that $|F[\emptyset$]|=1$ then
+More generally, if $F$ is a species such that $|F[\emptyset]|=1$ then
 the multiplicative inverse, $F^{-1}$, is the virtual species of lists
 $\alpha_1\alpha_2\dots\alpha_k$ of nonempty $F$-structures in which the sign
-is $(-1)^k$.  A proof is given by the sign-reversing involution
+is $(-1)^k$.  A proof is given by the fixed point free sign-reversing
+involution
 $$
 f(\alpha,\alpha_1 \alpha_2 \dots \alpha_k) =
 \begin{cases}
@@ -142,5 +143,11 @@ f(\alpha,\alpha_1 \alpha_2 \dots \alpha_k) =
 \end{cases}
 $$
 
+For more examples of the use of sign-reversing involutions the reader
+might want to have a look at my
+[paper](http://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i4p16)
+with Stuart Hannah.
 
+Finally I'd like to thank my friend [Bjark](https://algo.is/) for
+suggesting that I write this post.
 </div>
