@@ -1,9 +1,9 @@
 ---
-title: akc.is/email
-id: email
+title: akc.is/contact
+id: contact
 ---
 
-### Address
+### Email
 
 [anders.claesson@gmail.com](mailto:anders.claesson@gmail.com)
 

@@ -20,7 +20,7 @@ imagesEtc = foldr1 (.||.)
     , "images/*.ico"
     , "fonts/*"
     , "downloads/*"
-    , "email/key.asc"
+    , "pgp/key.asc"
     , "sloane/index.html"
     , "sloane/images/*"
     , "keybase.txt"
@@ -51,8 +51,8 @@ main = hakyllWith config $ do
         route $ constRoute "cv/index.html"
         compile'
 
-    match "email.md" $ do
-        route $ constRoute "email/index.html"
+    match "contact.md" $ do
+        route $ constRoute "contact/index.html"
         compile'
 
     match "blog/20*.md" $ do

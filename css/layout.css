@@ -82,17 +82,17 @@ h1, h2, h3, h4, h5, h6, h7 {font-family: sans serif; font-weight:bold; color: #3
 #nav a#navcode:hover,
 #nav a#navblog:hover,
 #nav a#navcv:hover,
-#nav a#navemail:hover,
+#nav a#navcontact:hover,
 #nav a#navfeed:hover,
 body#papers    #nav a#navindex:hover,
 body#code      #nav a#navindex:hover,
 body#cv        #nav a#navindex:hover,
-body#email     #nav a#navindex:hover,
+body#contact     #nav a#navindex:hover,
 body#papers    a#navpapers,
 body#blog      a#navblog,
 body#code      a#navcode,
 body#cv        a#navcv,
-body#email     a#navemail {text-decoration: none; background-color: #444; color: white;}
+body#contact     a#navcontact {text-decoration: none; background-color: #444; color: white;}
 
 a#navindex {text-decoration: none; background-color: #d9d9d9; color: #222; padding-left:10px; padding-right:13px; }
 
