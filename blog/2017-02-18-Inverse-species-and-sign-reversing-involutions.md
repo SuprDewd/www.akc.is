@@ -64,15 +64,15 @@ and try to come up with such a proof.
 Let $E$ be the [combinatorial
 species](https://en.wikipedia.org/wiki/Combinatorial_species) of sets,
 defined by $E[U]=\{U\}$. Its exponential generating function is
-$E(x)=e^x$. The multiplicative inverse of $E$ is a [virtual
+$E(x)=e^x$, and its multiplicative inverse is the [virtual
 species](https://byorgey.wordpress.com/2017/02/10/virtual-species-suffice/)
 $E^{-1}$ such that $E\cdot E^{-1}=1$, where $1[U]=\{U\}$ if $U=\emptyset$ and
-$1[U]=\emptyset$ otherwise. Here we find that
+$1[U]=\emptyset$ otherwise. Note that
 $$
 E^{-1} = (1+E_+)^{-1} = \sum_{k\geq 0} (-1)^k(E_+)^k,
 $$
 where $E_+$ denotes the species of nonempty sets. Thus, $E^{-1}$ is the
-species of signed ballots (also called ordered set partitions) where the
+species of signed ballots (also called ordered set partitions), where the
 sign of a ballot $B_1 B_2\dots B_k$ is $(-1)^k$; that is, the parity of
 the number of blocks. For instance, $\{d\}\{a,c,e\}\{b\}$ is a ballot of
 $U=\{a,b,c,d,e\}$ and its sign is $(-1)^3=-1$.
@@ -93,10 +93,9 @@ $$
 Further, counting subsets with respect to the sign $(-1)^{|S|}$ we get
 $$E(-x)E(x) = e^{-x}e^{x} = e^0 = 1.
 $$
-
-Thus, the species interpretation of there being equaly many subsets of
-even as of odd cardinality is $E\cdot E^{-1}=1$.
-So, a combinatorial proof of this fact can be given by a
+Thus, the species interpretation of there being as many subsets of
+even cardinality as of odd cardinality is $E\cdot E^{-1}=1$.
+So, a combinatorial proof of this can be given by a
 sign-reversing involution demonstrating that $E\cdot E^{-1}=1$. The objects
 of $E\cdot E^{-1}$ are pairs $(S, \beta)$ such that $S\subseteq U$ and
 $\beta=B_1 B_2\dots B_k$ is a signed ballot of $U\setminus S$. For example,
@@ -127,6 +126,8 @@ f(S,B_1 B_2 \dots B_k) =
   (\emptyset, SB_1 B_2 \dots B_k) &\text{if $S\neq\emptyset$.}
 \end{cases}
 $$
+The table above is arranged so that pairs on the same row are images of
+each other under $f$.
 
 More generally, if $F$ is a species such that $|F[\emptyset]|=1$ then
 the multiplicative inverse, $F^{-1}$, is the virtual species of lists
