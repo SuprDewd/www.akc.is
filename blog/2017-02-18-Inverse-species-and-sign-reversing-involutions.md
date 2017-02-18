@@ -54,12 +54,11 @@ $$
 \#\{S : S\subseteq U, \text{$|S|$ even}\} -
 \#\{S : S\subseteq U, \text{$|S|$ odd}\} = |\Fix(f)| = 0.
 $$
-Now, that's a simple and beautiful proof, but is this a proof from The
-Book, as Paul Erdős might have asked? Is there a more general and
-"natural" combinatorial proof? E.g. do we have to assume a total order
-on $U$ and do we have to mention special elements, such as $\hat 0$?
-Before proceeding to the next paragraph you might want to take a moment
-and try to come up with such a proof.
+Now, that's a simple and beautiful proof, but is there a more general
+and "natural" combinatorial proof? E.g. do we have to assume a total
+order on $U$ and do we have to mention special elements, such as $\hat
+0$?  Before proceeding to the next paragraph you might want to take a
+moment and try to come up with such a proof.
 
 Let $E$ be the [combinatorial
 species](https://en.wikipedia.org/wiki/Combinatorial_species) of sets,
