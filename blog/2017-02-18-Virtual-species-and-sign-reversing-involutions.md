@@ -47,9 +47,9 @@ f(S) =
   S \cup \{\hat 0\}      & \text{if $\hat 0\notin S $}.
 \end{cases}
 $$
-E.g. if $U=\{1,2,3\}$ then $f(\emptyset)=\{1\}$, $f(\{1\})=\emptyset$,
-$f(\{2\})=\{1,2\}$, etc. Note that $f$ is fixed point free; thus
-$\Fix(f)=\emptyset$ and
+For instance, if $U=\{1,2\}$ then $f(\emptyset)=\{1\}$,
+$f(\{1\})=\emptyset$, $f(\{2\})=\{1,2\}$, and $f(\{1,2\})=\{2\}$. Note
+that $f$ is fixed point free; thus $\Fix(f)=\emptyset$ and
 $$
 \#\{S : S\subseteq U, \text{$|S|$ even}\} -
 \#\{S : S\subseteq U, \text{$|S|$ odd}\} = |\Fix(f)| = 0.
@@ -58,7 +58,24 @@ Now, that's a simple and beautiful proof, but is this a proof from The
 Book, as Paul Erdős might have asked? Is there a more general and
 "natural" combinatorial proof? E.g. do we have to assume a total order
 on $U$ and do we have to mention special elements, such as $\hat 0$?
-Take a moment to try and come up with such a proof.
+Before proceeding to the next paragraph you might want to take a moment
+and try to come up with such a proof.
 
+Let $E$ be the [combinatorial
+species](https://en.wikipedia.org/wiki/Combinatorial_species) of sets,
+defined by $E[U]=\{U\}$. Its exponential generating function is
+$E(x)=e^x$. The multiplicative inverse of $E$ is a [virtual
+species](https://byorgey.wordpress.com/2017/02/10/virtual-species-suffice/)
+$E^{-1}$ such that $E\cdot E^{-1}=1$, where $1[U]=\{U\}$ if $U=\emptyset$ and
+$1[U]=\emptyset$ otherwise. Here we find that
+$$
+E^{-1} = (1+E_+)^{-1} = \sum_{k\geq 0} (-1)^k(E_+)^k,
+$$
+where $E_+$ denotes the species of nonempty sets. Thus, $E^{-1}$ is the
+species of signed ballots (also called ordered set partitions) where the
+sign $\epsilon(B_1\dots B_k)$ of a ballot $B_1\dots B_k$ is $(-1)^k$;
+that is, the parity of the number of blocks. For instance,
+$\{d\}\{a,c,e\}\{b\}$ is a ballot of $U=\{a,b,c,d,e\}$ and its sign is
+$(-1)^3=-1$.
 
 </div>
