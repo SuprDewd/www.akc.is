@@ -78,4 +78,26 @@ that is, the parity of the number of blocks. For instance,
 $\{d\}\{a,c,e\}\{b\}$ is a ballot of $U=\{a,b,c,d,e\}$ and its sign is
 $(-1)^3=-1$.
 
+The species of subsets $\newcommand{\Pow}{\mathfrak{P}}\Pow$ is defined
+by $\Pow[U]=\{(S,U\setminus S): S\subseteq U\}$. Note that
+$$
+(E \cdot E)[U]
+   = \sum_{S\subseteq U} E[S] \times E[U\setminus S]
+   = \sum_{S\subseteq U} \{S\} \times \{U\setminus S\}
+   = \Pow[U].
+$$
+That is, $\Pow=E^2$ and its
+exponential generating function is
+$$
+\Pow(x)=E(x)^2 = e^{2x}=\sum_{n\geq 0}2^n \frac{x^n}{n!}.
+$$
+Further, counting subsets with respect to the sign $(-1)^{|S|}$ we get
+$$E(-x)E(x) = e^{-x}e^{x} = e^0 = 1.
+$$
+
+Thus, the species interpretation of there being equaly many subsets of
+even as of odd cardinality is $E\cdot E^{-1}=1$.
+So, a combinatorial proof of this fact can be given by a
+sign-reversing involution demonstrating that $E\cdot E^{-1}=1$.
+
 </div>
