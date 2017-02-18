@@ -3,7 +3,7 @@ title: akc.is/blog
 id: blog
 ---
 
-# Virtual species and sign-reversing involutions
+# Inverse species and sign-reversing involutions
 
 <div class="blog">
 
