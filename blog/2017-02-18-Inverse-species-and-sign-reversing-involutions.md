@@ -94,8 +94,8 @@ $$E(-x)E(x) = e^{-x}e^{x} = e^0 = 1.
 $$
 Thus, the species interpretation of there being as many subsets of
 even cardinality as of odd cardinality is $E\cdot E^{-1}=1$.
-So, a combinatorial proof of this can be given by a
-sign-reversing involution demonstrating that $E\cdot E^{-1}=1$. The objects
+We will give a combinatorial proof of this species identity using a
+sign-reversing involution. The objects
 of $E\cdot E^{-1}$ are pairs $(S, \beta)$ such that $S\subseteq U$ and
 $\beta=B_1 B_2\dots B_k$ is a signed ballot of $U\setminus S$. For example,
 $(E\cdot E^{-1})[\{a,b,c\}]$ consists of the pairs
