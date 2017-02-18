@@ -5,13 +5,14 @@ import Data.Monoid ((<>), mconcat)
 import Data.Function
 import Data.List
 import qualified Data.Text as T
+import Text.Pandoc.Options
 import Hakyll
 
 type Author = String
 type Year   = String
 type Spark  = String
 
-thisYear = "2015"
+thisYear = "2017"
 
 imagesEtc = foldr1 (.||.)
     [ "images/*.png"
@@ -54,9 +55,21 @@ main = hakyllWith config $ do
         route $ constRoute "email/index.html"
         compile'
 
+    match "blog/20*.md" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler'
+            >>= loadAndApplyTemplate "templates/post.html" defaultContext
+            >>= saveSnapshot "blog"
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
+
+    match "blog.md" $ do
+        route $ constRoute "blog/index.html"
+        compile'
+
     match "papers/*.md" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocCompiler'
             >>= loadAndApplyTemplate "templates/paper.html" defaultContext
             >>= saveSnapshot "papers"
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -70,7 +83,7 @@ main = hakyllWith config $ do
            let context = mconcat
                    [ constField "papers" (ps >>= itemBody)
                    , constField "spark" r
-                   , constField "title" "akc.is/papers - Anders Claesson's papers"
+                   , constField "title" "akc.is/papers"
                    , constField "id" "papers"
                    , defaultContext
                    ]
@@ -93,11 +106,11 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" context
                 >>= relativizeUrls
 
-    create ["papers/feed.atom"] $ do
+    create ["feed.atom"] $ do
         route idRoute
         compile $ do
             let context = bodyField "description" <> defaultContext
-            ps <- fmap (take 10) . recentFirst =<< loadAllSnapshots "papers/*.md" "papers"
+            ps <- fmap (take 10) . recentFirst =<< loadAllSnapshots "blog/*.md" "blog"
             renderAtom papersFeedConfiguration context ps
 
 config :: Configuration
@@ -116,10 +129,10 @@ config = defaultConfiguration
 
 papersFeedConfiguration :: FeedConfiguration
 papersFeedConfiguration = FeedConfiguration
-    { feedTitle       = "akc.is/papers"
-    , feedDescription = "Papers and preprints by Anders Claesson (akc)"
+    { feedTitle       = "http://akc.is"
+    , feedDescription = "Combinatorics etc."
     , feedAuthorName  = "Anders Claesson"
-    , feedAuthorEmail = "anders.claesson@strath.ac.uk"
+    , feedAuthorEmail = "anders.claesson@gmail.com"
     , feedRoot        = "http://akc.is"
     }
 
@@ -172,9 +185,14 @@ publicationRecord = do
     return . spark m $ yearDistribution' ys
 
 compile' =
-    compile $ pandocCompiler
+    compile $ pandocCompiler'
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
+
+pandocCompiler' = pandocCompilerWith defaultHakyllReaderOptions pandocOptions
+
+pandocOptions :: WriterOptions
+pandocOptions = defaultHakyllWriterOptions{ writerHTMLMathMethod = MathJax "" }
 
 -- This function is due to Chao Xu. See
 -- https://github.com/Mgccl/mgccl-haskell/blob/master/random/spark.hs

@@ -64,7 +64,7 @@
     font-style: normal;
 }
 
-body {background: white; color: black; padding-top: 25px; padding-bottom: 10px; line-height: 1.4; font-size: 14px; font-family: sans serif;}
+body {background: white; color: black; padding-top: 25px; padding-bottom: 10px; line-height: 1.55; font-size: 14px; font-family: sans serif;}
 
 a:link  {color: #000044;}
 a:hover {color: #222299;}
@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6, h7 {font-family: sans serif; font-weight:bold; color: #3
 
 #nav a#navpapers:hover,
 #nav a#navcode:hover,
+#nav a#navblog:hover,
 #nav a#navcv:hover,
 #nav a#navemail:hover,
 #nav a#navfeed:hover,
@@ -88,6 +89,7 @@ body#code      #nav a#navindex:hover,
 body#cv        #nav a#navindex:hover,
 body#email     #nav a#navindex:hover,
 body#papers    a#navpapers,
+body#blog      a#navblog,
 body#code      a#navcode,
 body#cv        a#navcv,
 body#email     a#navemail {text-decoration: none; background-color: #444; color: white;}

@@ -1,5 +1,5 @@
 ---
-title: akc.is/code - Anders Claesson's code
+title: akc.is/code
 id: code
 ---
 

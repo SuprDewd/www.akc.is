@@ -1,5 +1,5 @@
 ---
-title: akc.is - Anders Claesson's homepage
+title: akc.is
 id: index
 ---
 <div class="three columns alpha">
